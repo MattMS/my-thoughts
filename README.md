@@ -1,4 +1,2 @@
-my-thoughts
+My thoughts
 ===========
-
-thoughts.mattms.info
