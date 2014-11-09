@@ -1,4 +1,4 @@
-# Thoughts of MattMS
+# Thoughts
 
 As everyone does, I think about a lot of things.
 
