@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(name="author", content="Matt McKellar-Spence")
+		meta(name="description", content="My thoughts on various topics")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+		title
+			block title
+				| The world
+			|  thought by MattMS
+
+		link(
+			href="//netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css",
+			rel="stylesheet",
+			type="text/css"
+		)
+		link(
+			href="//netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css",
+			rel="stylesheet",
+			type="text/css"
+		)
+		link(
+			href="http://fonts.googleapis.com/css?family=Ubuntu",
+			rel="stylesheet",
+			type="text/css"
+		)
+		link(href="/base.css", rel="stylesheet", type="text/css")
+	body
+		header.container
+			ul.nav.nav-pills
+				li: a(href="/") Home
+		article.container
+			block content
