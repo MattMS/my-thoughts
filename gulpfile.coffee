@@ -5,7 +5,7 @@ jade = require 'gulp-jade'
 gulp.task 'default', ->
 	gulp.src './index.jade'
 	.pipe jade()
-	.pipe gulp.dest './index.html'
+	.pipe gulp.dest '.'
 
 	gulp.src './on/**/index.jade'
 	.pipe jade()
