@@ -13,11 +13,10 @@ exactly, but it was approximately November 2013 to 2014.
 I have kept short hair and been fairly clean shaven for the previous 10
 years, so this was a big change for me.
 
-During most of my time I had it, I was still surprised each time I saw
+During most of the time I had it, I was still surprised each time I saw
 myself in mirrors.
 
-I think this is part of the reason that most of my family did not like
-it.
+I think this was part of the reason most of my family did not like it.
 I probably seemed like a completely different person.
 
 
@@ -34,8 +33,8 @@ relatively easy for me to let it go.
 ## Aftermath
 
 Although my mental image of myself had not completely adjusted to having
-it, once it had been removed, I had the same surprise at seeing myself
-in mirrors.
+it, once it was removed, I had the same surprise at seeing myself in
+mirrors.
 
 I am thankful that I managed to see it through and finish it off, but
 part of me misses it.
