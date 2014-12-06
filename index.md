@@ -9,3 +9,5 @@ Please make sure you read this in the [correct context](/on/context/)
 so my writing is not misinterpreted.
 
 - [Tabs vs spaces](/on/tabs_vs_spaces/)
+
+- [Year-beard](/on/year-beard/)
