@@ -1,22 +1,23 @@
 # Zero-based indexing
 
-Most coding languages today have stuck with lists starting at zero.
+Most programming languages have stuck with array/list/string indexing
+starting at zero.
 
 So you access the first item like this:
 
-	first = my_list[0]
+	first = items[0]
 
-You have to loop over items like this:
+And loop over items like this:
 
 	i = 1
 	while i < 4:
-		print(my_list[i])
+		print(items[i])
 		i += 1
 
-Which will print out the 2nd to 4th items (inclusive).
+Which prints out the 2nd to 4th items (inclusive).
 
-This is hardly intuitive and I even had to run that code to see what
-that loop actually printed.
+This is hardly intuitive and I even ran that code to be sure what that
+loop actually printed.
 
 We can thank low level languages like
 [C](https://en.wikipedia.org/wiki/C_%28programming_language%29)
