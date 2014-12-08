@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="author" content="Matt McKellar-Spence"><meta name="description" content="My thoughts on various topics"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Zero-base indexing thought by MattMS</title><link href="//netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="//netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"><link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css"><link href="/base.css" rel="stylesheet" type="text/css"></head><body><article class="container"><h1 id="zero-based-indexing">Zero-based indexing</h1>
+<p>Most coding languages today have stuck with lists starting at zero.</p>
+<p>So you access the first item like this:</p>
+<pre><code>first = my_list[0]
+</code></pre><p>You have to loop over items like this:</p>
+<pre><code>i = 1
+while i &lt; 4:
+    print(my_list[i])
+    i += 1
+</code></pre><p>Which will print out the 2nd to 4th items (inclusive).</p>
+<p>This is hardly intuitive and I even had to run that code to see what
+that loop actually printed.</p>
+<p>We can thank low level languages like
+<a href="https://en.wikipedia.org/wiki/C_%28programming_language%29">C</a>
+for this.</p>
+<p>There have been a few languages that have seen the light and moved to
+one-based indexing, like <a href="https://www.lua.org/">Lua</a>.
+Unfortunately, my current favourites (Python and CoffeeScript) have
+stuck with the crowd.</p>
+<p>I cannot see this changing any time soon, so I decided to have this rant
+to show that at least one person still has hope.</p>
+</article><footer class="container"><hr><ul><li><a href="/">Home</a></li><li><a href="https://github.com/MattMS/my-thoughts">Repo on GitHub</a></li><li><a href="http://about.mattms.info/">About me</a></li></ul></footer><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-28026518-3', 'auto');
+ga('send', 'pageview');</script></body></html>
