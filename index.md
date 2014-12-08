@@ -11,3 +11,5 @@ so my writing is not misinterpreted.
 - [Tabs vs spaces](/on/tabs_vs_spaces/)
 
 - [Year-beard](/on/year-beard/)
+
+- [Zero-based indexing](/on/zero-based_index/)
