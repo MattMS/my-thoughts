@@ -22,4 +22,6 @@ Thank you for your interest!
 
 - [Discrimination](/on/discrimination/)
 
+- [Is idea theft wrong?](/on/is_idea_theft_wrong/)
+
 - [Year-beard](/on/year-beard/)
