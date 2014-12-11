@@ -75,9 +75,9 @@ discussion with others.
 
 ## Reading
 
-A few links to pages I found interesting.
-
 - https://en.wikipedia.org/wiki/Discrimination
+
+- https://en.wikipedia.org/wiki/Golden_Rule
 
 - https://en.wikipedia.org/wiki/Prejudice
 
