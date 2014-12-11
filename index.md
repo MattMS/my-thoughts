@@ -2,11 +2,13 @@
 
 As everyone does, I think about a lot of things.
 
-The purpose of this site is to display my thoughts and hopefully their
-progression towards a more accurate understanding of the world.
+This site hopefully shows the progression of my thoughts towards a
+better understanding of the world.
 
-Please make sure you read this in the [correct context](/on/context/)
+Please make sure you [read this in the correct context](/on/context/)
 so my writing is not misinterpreted.
+
+Thank you for your interest!
 
 
 ## Computing
