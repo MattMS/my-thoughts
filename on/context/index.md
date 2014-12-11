@@ -1,22 +1,21 @@
 # Context
 
-I am not a lawyer, so I have no idea if the following disclaimer is
-adequate, but I hope it explains my intentions.
+I am not a lawyer, so I have no idea if this is adequate, but I hope it
+correctly conveys my intentions.
 
 If nothing else, please know that I intend no offence with the content
 presented here.
-
-My hope is that people will open issues on this repository to correct me
-or provide alternate views.
-
-
-## Disclaimer
+If you do find something incorrect or offensive, please
+[open an issue on GitHub](https://github.com/MattMS/thoughts.mattms.info/issues)
+or [contact me on Twitter](https://twitter.com/MattMS).
 
 These thoughts are entirely my own!
-
-They do not reflect those of any of my past, present or future employers
-and, to the best of my ability, I try to avoid any of my contradictory
-personal opinions influencing any of my professional work.
+They should not be taken as those of my past or present employers or
+colleagues.
 
 In all likelihood, my thoughts will change over time, and I intend that
 to be reflected here.
+I always try to be open-minded on any topic (as long as discussion can
+be had) so please do not build poor impressions based on any incorrect
+ideas I may have formed.
+It is much better to educate me! :)
