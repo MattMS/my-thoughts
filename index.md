@@ -20,7 +20,7 @@ Thank you for your interest!
 
 ## Goals
 
-- [Working to be redundant](/on/working_to_be_redundant/)
+- [Making myself redundant](/on/making_myself_redundant/)
 
 - [Year-beard](/on/year-beard/)
 

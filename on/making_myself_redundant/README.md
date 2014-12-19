@@ -1,4 +1,4 @@
-# Working to be redundant
+# Making myself redundant
 
 One of my main goals is to make myself redundant.
 
@@ -21,8 +21,11 @@ Documentation needs a clear entry point for someone to start learning a
 system and then they should be directed to the solution as quickly as
 possible.
 
-It is more important to know *why* something was done, rather than what
-it is doing.
+I lose focus if I have to read through a bunch of unrelated information
+when I have a specific question to be answered.
+
+As for code comments, it is more important to know *why* something was
+done, rather than what it is doing.
 
 
 ### Code review
