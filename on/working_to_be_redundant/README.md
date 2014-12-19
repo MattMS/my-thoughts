@@ -8,8 +8,8 @@ someone can continue any work I have started.
 
 ## Saving my work
 
-If someone is unable to understand something I have written, then there
-is a greater possibility that they will replace it.
+If someone is unable to understand something I have written, then it is
+more likely they will replace it.
 
 This means my previous work was wasted and their time is wasted
 replacing it.
@@ -17,8 +17,9 @@ replacing it.
 
 ### Documentation
 
-There needs to be an entry point for someone to start reading and then
-be directed to solutions as quickly as possible.
+Documentation needs a clear entry point for someone to start learning a
+system and then they should be directed to the solution as quickly as
+possible.
 
 It is more important to know *why* something was done, rather than what
 it is doing.
@@ -26,8 +27,8 @@ it is doing.
 
 ### Code review
 
-If someone can follow and understand what I have done, without me giving
-them clues, then I know it is safe.
+If someone can follow what I have done, without me giving them clues,
+then there is a better chance it is understandable.
 
 They may even suggest another approach that I had not considered.
 
@@ -35,7 +36,8 @@ They may even suggest another approach that I had not considered.
 ## Leave without worries
 
 When the time comes for me to move on, I would like to know that my
-replacement is not cursing me for the confusing mess I have left them.
+replacement is not going to be cursing me for the confusing mess I have
+left them.
 
 
 ## To my predecessors
