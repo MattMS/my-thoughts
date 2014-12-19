@@ -15,6 +15,8 @@ Thank you for your interest!
 
 - [Tabs vs spaces](/on/tabs_vs_spaces/)
 
+- [Working to be redundant](/on/working_to_be_redundant/)
+
 - [Zero-based indexing](/on/zero-based_index/)
 
 
