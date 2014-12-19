@@ -15,9 +15,14 @@ Thank you for your interest!
 
 - [Tabs vs spaces](/on/tabs_vs_spaces/)
 
+- [Zero-based indexing](/on/zero-based_index/)
+
+
+## Goals
+
 - [Working to be redundant](/on/working_to_be_redundant/)
 
-- [Zero-based indexing](/on/zero-based_index/)
+- [Year-beard](/on/year-beard/)
 
 
 ## Society
@@ -25,5 +30,3 @@ Thank you for your interest!
 - [Discrimination](/on/discrimination/)
 
 - [Is idea theft wrong?](/on/is_idea_theft_wrong/)
-
-- [Year-beard](/on/year-beard/)
