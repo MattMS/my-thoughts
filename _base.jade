@@ -11,7 +11,8 @@ html(lang="en")
 				| The world
 			|  thought by MattMS
 
-		link(href="//css.mattms.info/main.css", rel="stylesheet", type="text/css")
+		block css
+			include ./_css.jade
 	body
 		article.container
 			block content
