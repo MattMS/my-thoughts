@@ -1,17 +1,37 @@
-# My thoughts
+# Thoughts
 
-Consider this like an ever-evolving blog.
+As everyone does, I think about a lot of things.
+
+You could
+[consider this like an ever-evolving blog](./on/why_not_a_blog/).
+
+This site hopefully shows the progression of my thoughts towards a
+better understanding of the world.
+
+Please make sure you [read this in the correct context](/on/context/)
+so my writing is not misinterpreted.
+
+Thank you for your interest!
 
 
-## Run locally
+## Computing
 
-```bash
-git clone https://github.com/MattMS/my-thoughts.git
-cd my-thoughts
-npm install
-gulp
-python3 -m http.server 1337
-```
+- [Tabs vs spaces](/on/tabs_vs_spaces/)
 
-`gulp` will compile all Jade files to HTML in-place.
-Then you can simply run a static server from the folder.
+- [Zero-based indexing](/on/zero-based_index/)
+
+
+## Goals
+
+- [Making myself redundant](/on/making_myself_redundant/)
+
+- [Year-beard](/on/year-beard/)
+
+
+## Society
+
+- [Discrimination](/on/discrimination/)
+
+- [Is idea theft wrong?](/on/is_idea_theft_wrong/)
+
+- [Religion](/on/religion/)
