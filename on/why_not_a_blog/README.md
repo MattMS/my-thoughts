@@ -4,7 +4,7 @@ This page explains why I have chosen to format this site how it is,
 rather than creating a typical blog.
 
 
-## Not a blog or news site
+## Not a blog/news site
 
 Firstly, I dislike the term "blog".
 There are still people that do not know what a blog is, and I can avoid
