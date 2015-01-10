@@ -3,10 +3,9 @@
 As everyone does, I think about a lot of things.
 
 You could
-[consider this like an ever-evolving blog](./on/why_not_a_blog/).
-
-This site hopefully shows the progression of my thoughts towards a
-better understanding of the world.
+[consider this like an ever-evolving blog](./on/why_not_a_blog/)
+that hopefully shows the progression of my thoughts towards a better
+understanding of the world.
 
 Please make sure you [read this in the correct context](./on/context/)
 so my writing is not misinterpreted.
