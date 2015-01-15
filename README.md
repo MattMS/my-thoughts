@@ -15,6 +15,8 @@ Thank you for your interest!
 
 ## Computing
 
+- [CoffeeScript style](./on/coffeescript_style/)
+
 - [Tabs vs spaces](./on/tabs_vs_spaces/)
 
 - [Zero-based indexing](./on/zero-based_index/)
