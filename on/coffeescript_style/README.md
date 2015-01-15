@@ -3,27 +3,25 @@
 This page describes the way I like to write
 [CoffeeScript](http://coffeescript.org/).
 
-You should note that I have not included "guide" in the title.
-That is because I do not recommend this as something others should
-follow.
+I have intentionally avoided using "guide" in the title because I do not
+recommend this as a guide others should follow.
 It is just the way I like to write because it makes sense to me.
 
-If you need a standard to follow then you could use the
-[coffeescript-style-guide](https://github.com/polarmobile/coffeescript-style-guide)
+If you need a standard to follow, then you could use the
+[CoffeeScript style guide](https://github.com/polarmobile/coffeescript-style-guide)
 by polarmobile (which I just found by a quick Google search)
-and/or use [EditorConfig](http://editorconfig.org/).
+and use
+[EditorConfig](http://editorconfig.org/)
+(which I have used to avoid annoying others).
 
-So, this is not the reference you are looking for, but it may be of
+So this is not the reference you are looking for, but it may be of
 interest purely for another perspective.
 
 
 ## Blank lines
 
-I like to use a single blank line between statements that are related
-and 2 blank lines to make a block of statements stand out.
-
-I find that as a file increases in content, I will insert more blank
-lines to make it easier to scan.
+I have a single blank line between related statements and 2 blank lines
+between blocks of statements, like function definitions.
 
 Since I prefer to write
 [Literate CoffeeScript](http://coffeescript.org/#literate),
@@ -32,16 +30,15 @@ I usually have 2 blank lines before each Markdown heading.
 
 ## Brackets and commas
 
-I use as few brackets and commas as possible!
-It seems less cluttered and you do not have to scroll over the closing
-brackets of a block of code.
+I use as few brackets and commas as possible.
+It seems less cluttered and avoids the blocks of closing brackets.
 
 	my_obj =
 		a: 1
 		b: 2
 
-The except to this is square brackets, because they are necessary to
-define a list.
+The exception to this is square brackets, because they are necessary to
+define an array.
 
 	my_list = [
 		'a'
@@ -63,12 +60,12 @@ that I want to temporarily ignore.
 Since CoffeeScript uses indentation for scope, it is important to use
 the same type through a file.
 
-[I prefer tabs over spaces](../tabs_vs_spaces/) for the various reasons
-I mention on the linked page.
+I prefer [tabs over spaces](../tabs_vs_spaces/) for the various reasons
+on the linked page.
 
 I know that many people prefer to use 2 spaces for indentation, but I
-find this difficult to match up blocks of code where the indentation
-varies across many lines.
+find this difficult to visually match up blocks of code that extend
+over many lines.
 
 
 ## Spaces

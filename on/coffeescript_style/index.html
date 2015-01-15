@@ -1,33 +1,31 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="author" content="Matt McKellar-Spence"><meta name="description" content="My thoughts on various topics"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CoffeeScript style thought by MattMS</title><link href="http://css.mattms.info/basic/light/index.css?t=2014-12-21T1300+10" rel="stylesheet" title="Basic light" type="text/css"><link href="http://css.mattms.info/basic/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Basic dark" type="text/css"><link href="http://css.mattms.info/solarized/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Solarized dark" type="text/css"></head><body><article class="container"><h1 id="my-coffeescript-style">My CoffeeScript style</h1>
 <p>This page describes the way I like to write
 <a href="http://coffeescript.org/">CoffeeScript</a>.</p>
-<p>You should note that I have not included &quot;guide&quot; in the title.
-That is because I do not recommend this as something others should
-follow.
+<p>I have intentionally avoided using &quot;guide&quot; in the title because I do not
+recommend this as a guide others should follow.
 It is just the way I like to write because it makes sense to me.</p>
-<p>If you need a standard to follow then you could use the
-<a href="https://github.com/polarmobile/coffeescript-style-guide">coffeescript-style-guide</a>
+<p>If you need a standard to follow, then you could use the
+<a href="https://github.com/polarmobile/coffeescript-style-guide">CoffeeScript style guide</a>
 by polarmobile (which I just found by a quick Google search)
-and/or use <a href="http://editorconfig.org/">EditorConfig</a>.</p>
-<p>So, this is not the reference you are looking for, but it may be of
+and use
+<a href="http://editorconfig.org/">EditorConfig</a>
+(which I have used to avoid annoying others).</p>
+<p>So this is not the reference you are looking for, but it may be of
 interest purely for another perspective.</p>
 <h2 id="blank-lines">Blank lines</h2>
-<p>I like to use a single blank line between statements that are related
-and 2 blank lines to make a block of statements stand out.</p>
-<p>I find that as a file increases in content, I will insert more blank
-lines to make it easier to scan.</p>
+<p>I have a single blank line between related statements and 2 blank lines
+between blocks of statements, like function definitions.</p>
 <p>Since I prefer to write
 <a href="http://coffeescript.org/#literate">Literate CoffeeScript</a>,
 I usually have 2 blank lines before each Markdown heading.</p>
 <h2 id="brackets-and-commas">Brackets and commas</h2>
-<p>I use as few brackets and commas as possible!
-It seems less cluttered and you do not have to scroll over the closing
-brackets of a block of code.</p>
+<p>I use as few brackets and commas as possible.
+It seems less cluttered and avoids the blocks of closing brackets.</p>
 <pre><code>my_obj =
     a: 1
     b: 2
-</code></pre><p>The except to this is square brackets, because they are necessary to
-define a list.</p>
+</code></pre><p>The exception to this is square brackets, because they are necessary to
+define an array.</p>
 <pre><code>my_list = [
     &#39;a&#39;
     1
@@ -41,11 +39,11 @@ that I want to temporarily ignore.</p>
 <h2 id="indentation">Indentation</h2>
 <p>Since CoffeeScript uses indentation for scope, it is important to use
 the same type through a file.</p>
-<p><a href="../tabs_vs_spaces/">I prefer tabs over spaces</a> for the various reasons
-I mention on the linked page.</p>
+<p>I prefer <a href="../tabs_vs_spaces/">tabs over spaces</a> for the various reasons
+on the linked page.</p>
 <p>I know that many people prefer to use 2 spaces for indentation, but I
-find this difficult to match up blocks of code where the indentation
-varies across many lines.</p>
+find this difficult to visually match up blocks of code that extend
+over many lines.</p>
 <h2 id="spaces">Spaces</h2>
 <p>I never include more than a single space between anything.</p>
 <p>The only places I avoid spaces are when calling a function without
