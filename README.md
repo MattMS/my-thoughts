@@ -24,9 +24,9 @@ Thank you for your interest!
 
 ## Family
 
-- [Doug](./on/doug/)
+- [Doug](./on/Doug/)
 
-- [Nolan](./on/nolan/)
+- [Nolan](./on/Nolan/)
 
 
 ## Goals
