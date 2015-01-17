@@ -22,15 +22,6 @@ Thank you for your interest!
 - [Zero-based indexing](./on/zero-based_index/)
 
 
-## Family
-
-- [Doug](./on/Doug/)
-
-- [Mum](./on/Mum/)
-
-- [Nolan](./on/Nolan/)
-
-
 ## Goals
 
 - [Making myself redundant](./on/making_myself_redundant/)
