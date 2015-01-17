@@ -1,27 +1,23 @@
 # My CoffeeScript style
 
 This page describes the way I like to write
-[CoffeeScript](http://coffeescript.org/).
+[CoffeeScript](http://coffeescript.org/), when given the choice.
 
-I have intentionally avoided using "guide" in the title because I do not
-recommend this as a guide others should follow.
-It is just the way I like to write because it makes sense to me.
-
-If you need a standard to follow, then you could use the
-[CoffeeScript style guide](https://github.com/polarmobile/coffeescript-style-guide)
-by polarmobile (which I just found by a quick Google search)
-and use
-[EditorConfig](http://editorconfig.org/)
-(which I have used to avoid annoying others).
-
-So this is not the reference you are looking for, but it may be of
-interest purely for another perspective.
+Although this is my preferred way of writing code, I am happy to follow
+existing standards when working in teams.
+I have found [EditorConfig](http://editorconfig.org/) useful for this.
 
 
 ## Blank lines
 
 I have a single blank line between related statements and 2 blank lines
-between blocks of statements, like function definitions.
+between blocks of related statements.
+
+	a = my_function
+		a: 1
+		b: 2
+
+	b = 2
 
 Since I prefer to write
 [Literate CoffeeScript](http://coffeescript.org/#literate),
@@ -51,8 +47,11 @@ define an array.
 ## Comments
 
 Since I use Literate CoffeeScript, I write all my comments as Markdown
-paragraphs and do not have any indented `#` comments, except for code
-that I want to temporarily ignore.
+paragraphs.
+This gives me the same character width (72) for all comments.
+
+I only use indented `#` comments for code that I want temporarily
+ignored.
 
 
 ## Indentation
@@ -60,12 +59,11 @@ that I want to temporarily ignore.
 Since CoffeeScript uses indentation for scope, it is important to use
 the same type through a file.
 
-I prefer [tabs over spaces](../tabs_vs_spaces/) for the various reasons
-on the linked page.
+I prefer using [tabs instead of spaces](../tabs_vs_spaces/).
 
-I know that many people prefer to use 2 spaces for indentation, but I
-find this difficult to visually match up blocks of code that extend
-over many lines.
+Many people prefer to use 2 spaces for indentation, but I find this
+difficult to visually match up blocks of code that extend over many
+lines.
 
 
 ## Spaces
@@ -73,7 +71,7 @@ over many lines.
 I never include more than a single space between anything.
 
 The only places I avoid spaces are when calling a function without
-parameters, or when doing an object item assignment.
+parameters, or when assigning values in an object.
 
 	my_function()
 
@@ -86,7 +84,7 @@ them anyway.
 ## Variable names
 
 I like to use [snake-case](https://en.wikipedia.org/wiki/Snake_case)
-over camel case for everything.
+over camel-case for everything.
 
 If variable names are made of multiple words, and words are usually
 separated by spaces, then swapping the space or an underscore seems

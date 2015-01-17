@@ -1,21 +1,18 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="author" content="Matt McKellar-Spence"><meta name="description" content="My thoughts on various topics"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CoffeeScript style thought by MattMS</title><link href="http://css.mattms.info/basic/light/index.css?t=2014-12-21T1300+10" rel="stylesheet" title="Basic light" type="text/css"><link href="http://css.mattms.info/basic/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Basic dark" type="text/css"><link href="http://css.mattms.info/solarized/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Solarized dark" type="text/css"></head><body><article class="container"><h1 id="my-coffeescript-style">My CoffeeScript style</h1>
 <p>This page describes the way I like to write
-<a href="http://coffeescript.org/">CoffeeScript</a>.</p>
-<p>I have intentionally avoided using &quot;guide&quot; in the title because I do not
-recommend this as a guide others should follow.
-It is just the way I like to write because it makes sense to me.</p>
-<p>If you need a standard to follow, then you could use the
-<a href="https://github.com/polarmobile/coffeescript-style-guide">CoffeeScript style guide</a>
-by polarmobile (which I just found by a quick Google search)
-and use
-<a href="http://editorconfig.org/">EditorConfig</a>
-(which I have used to avoid annoying others).</p>
-<p>So this is not the reference you are looking for, but it may be of
-interest purely for another perspective.</p>
+<a href="http://coffeescript.org/">CoffeeScript</a>, when given the choice.</p>
+<p>Although this is my preferred way of writing code, I am happy to follow
+existing standards when working in teams.
+I have found <a href="http://editorconfig.org/">EditorConfig</a> useful for this.</p>
 <h2 id="blank-lines">Blank lines</h2>
 <p>I have a single blank line between related statements and 2 blank lines
-between blocks of statements, like function definitions.</p>
-<p>Since I prefer to write
+between blocks of related statements.</p>
+<pre><code>a = my_function
+    a: 1
+    b: 2
+
+b = 2
+</code></pre><p>Since I prefer to write
 <a href="http://coffeescript.org/#literate">Literate CoffeeScript</a>,
 I usually have 2 blank lines before each Markdown heading.</p>
 <h2 id="brackets-and-commas">Brackets and commas</h2>
@@ -34,20 +31,21 @@ define an array.</p>
 ]
 </code></pre><h2 id="comments">Comments</h2>
 <p>Since I use Literate CoffeeScript, I write all my comments as Markdown
-paragraphs and do not have any indented <code>#</code> comments, except for code
-that I want to temporarily ignore.</p>
+paragraphs.
+This gives me the same character width (72) for all comments.</p>
+<p>I only use indented <code>#</code> comments for code that I want temporarily
+ignored.</p>
 <h2 id="indentation">Indentation</h2>
 <p>Since CoffeeScript uses indentation for scope, it is important to use
 the same type through a file.</p>
-<p>I prefer <a href="../tabs_vs_spaces/">tabs over spaces</a> for the various reasons
-on the linked page.</p>
-<p>I know that many people prefer to use 2 spaces for indentation, but I
-find this difficult to visually match up blocks of code that extend
-over many lines.</p>
+<p>I prefer using <a href="../tabs_vs_spaces/">tabs instead of spaces</a>.</p>
+<p>Many people prefer to use 2 spaces for indentation, but I find this
+difficult to visually match up blocks of code that extend over many
+lines.</p>
 <h2 id="spaces">Spaces</h2>
 <p>I never include more than a single space between anything.</p>
 <p>The only places I avoid spaces are when calling a function without
-parameters, or when doing an object item assignment.</p>
+parameters, or when assigning values in an object.</p>
 <pre><code>my_function()
 
 my_obj = a: 1
@@ -55,7 +53,7 @@ my_obj = a: 1
 them anyway.</p>
 <h2 id="variable-names">Variable names</h2>
 <p>I like to use <a href="https://en.wikipedia.org/wiki/Snake_case">snake-case</a>
-over camel case for everything.</p>
+over camel-case for everything.</p>
 <p>If variable names are made of multiple words, and words are usually
 separated by spaces, then swapping the space or an underscore seems
 better than joining them together then trying to figure out if you drop
