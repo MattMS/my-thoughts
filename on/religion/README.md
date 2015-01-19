@@ -23,8 +23,7 @@ some from different cultures, and gatherings exposed me to their
 different practices and views.
 
 As a child, I was quite skeptical of it all and probably would have
-called myself an atheist, because that was the only term I knew for
-someone that did not believe in anything.
+called myself an atheist.
 
 
 ### School
@@ -32,7 +31,7 @@ someone that did not believe in anything.
 At school, I recall visiting a church and a couple of times when a
 chaplain spoke to our class.
 I gathered that the majority of students had no interest in it because
-these were usually mocked afterwards.
+these events were usually mocked afterwards.
 
 I did quite well at school and started to understand the world through
 science and logic, which further defined my skepticism in religion.
@@ -97,7 +96,7 @@ rather than the particular extremist group.
 
 ## Films
 
-These are a few films that shaped my views on religion.
+These are a few films that helped shape my views on religion.
 
 
 ### Life of Pi
@@ -121,7 +120,7 @@ It was also nice that the end message was mostly "God is love".
 
 [The Thirteenth Floor on IMDB](http://www.imdb.com/title/tt0139809/)
 
-If life can be a simulation, then there could be an intelligent creator.
+If life can be a simulation, then something could have created it.
 
 Watching [The Matrix](https://en.wikipedia.org/wiki/The_Matrix) before
 this may have also helped, but I did not realise this at the time.
