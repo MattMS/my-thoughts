@@ -46,9 +46,9 @@ define an array.
 
 ## Comments
 
-Since I use Literate CoffeeScript, I write all my comments as Markdown
-paragraphs.
+Literate CoffeeScript lets me write my comments as Markdown paragraphs.
 This gives me the same character width (72) for all comments.
+It also allows headings and other HTML features.
 
 I only use indented `#` comments for code that I want temporarily
 ignored.
@@ -56,7 +56,7 @@ ignored.
 
 ## Indentation
 
-Since CoffeeScript uses indentation for scope, it is important to use
+CoffeeScript uses indentation for scope and it is important to use
 the same type through a file.
 
 I prefer using [tabs instead of spaces](../tabs_vs_spaces/).
@@ -84,12 +84,16 @@ them anyway.
 ## Variable names
 
 I like to use [snake-case](https://en.wikipedia.org/wiki/Snake_case)
-over camel-case for everything.
+over [camel-case](http://en.wikipedia.org/wiki/CamelCase) for all
+variable and function names.
 
 If variable names are made of multiple words, and words are usually
-separated by spaces, then swapping the space or an underscore seems
+separated by spaces, then swapping the space for an underscore seems
 better than joining them together then trying to figure out if you drop
 the case on an acronym.
 
-	XML_to_JSON > XmlToJson
-	xml_to_json > XMLToJSON
+	XML_to_JSON > XMLToJSON
+	xml_to_json > XmlToJson
+
+I follow this same rule when hyphens are allowed, such as file names and
+CSS classes.
