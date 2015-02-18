@@ -17,6 +17,8 @@ Thank you for your interest!
 
 - [CoffeeScript style](./on/coffeescript_style/)
 
+- [Flexible work](./on/flexible_work/)
+
 - [Tabs vs spaces](./on/tabs_vs_spaces/)
 
 - [Zero-based indexing](./on/zero-based_index/)
