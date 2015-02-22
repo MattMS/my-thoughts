@@ -129,6 +129,10 @@ Starting at the Australian Antarctic Division required me to learn
 [ColdFusion](http://en.wikipedia.org/wiki/ColdFusion_Markup_Language)
 and [Oracle databases](http://en.wikipedia.org/wiki/Oracle_Database).
 
+I will hold back on further comments here, apart from saying I think the
+[Railo](http://www.getrailo.org/) team are doing some nice
+work, at least if you need to use ColdFusion.
+
 
 ## Node.js
 
