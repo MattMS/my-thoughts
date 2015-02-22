@@ -21,6 +21,8 @@ Thank you for your interest!
 
 - [Flexible work](./on/flexible_work/)
 
+- [My coding evolution](./on/my_coding_evolution/)
+
 - [Tabs vs spaces](./on/tabs_vs_spaces/)
 
 - [Zero-based indexing](./on/zero-based_index/)
