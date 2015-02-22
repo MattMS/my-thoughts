@@ -9,7 +9,7 @@ I am not surprised, given my memories of computers as a child, but I
 cannot say I remember it.
 
 
-## Basic
+## BASIC
 
 The first device I remember writing code on was a
 [TRS-80 Color Computer](https://en.wikipedia.org/wiki/TRS-80_Color_Computer)
@@ -30,7 +30,7 @@ At the end of the book was a certificate stating
 "You are now a computer programmer!"
 
 
-## Quick Basic
+## QuickBASIC
 
 The first major jump for me was getting a computer running
 [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS),
