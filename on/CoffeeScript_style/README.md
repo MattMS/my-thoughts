@@ -1,11 +1,35 @@
 # My CoffeeScript style
 
 This page describes the way I like to write
-[CoffeeScript](http://coffeescript.org/), when given the choice.
+[CoffeeScript](http://coffeescript.org/).
 
-Although this is my preferred way of writing code, I am happy to follow
-existing standards when working in teams.
-I have found [EditorConfig](http://editorconfig.org/) useful for this.
+Although this is my preferred style of writing, if I need to follow
+other standards, I have found [EditorConfig](http://editorconfig.org/)
+to be useful.
+
+
+## Keep only what you need
+
+I try to remove as many unnecessary (visible) characters as possible.
+
+	my_val = $('#my_input').val()
+
+Can be written as:
+
+	my_val = $ '#my_input'
+	.val()
+
+Although this only removes a pair of brackets and increases the vertical
+space, I find it easier to read.
+
+Even further:
+
+	my_val = $ '#my_input'
+	.css 'border', 0
+	.data 'my_value', 12
+	.val()
+
+This does remove `my_val =` from `.val()`, which can be confusing.
 
 
 ## Blank lines

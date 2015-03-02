@@ -1,9 +1,23 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="author" content="Matt McKellar-Spence"><meta name="description" content="My thoughts on various topics"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CoffeeScript style thought by MattMS</title><link href="http://css.mattms.info/basic/light/index.css?t=2014-12-21T1300+10" rel="stylesheet" title="Basic light" type="text/css"><link href="http://css.mattms.info/basic/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Basic dark" type="text/css"><link href="http://css.mattms.info/solarized/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Solarized dark" type="text/css"></head><body><article class="container"><h1 id="my-coffeescript-style">My CoffeeScript style</h1>
 <p>This page describes the way I like to write
-<a href="http://coffeescript.org/">CoffeeScript</a>, when given the choice.</p>
-<p>Although this is my preferred way of writing code, I am happy to follow
-existing standards when working in teams.
-I have found <a href="http://editorconfig.org/">EditorConfig</a> useful for this.</p>
+<a href="http://coffeescript.org/">CoffeeScript</a>.</p>
+<p>Although this is my preferred style of writing, if I need to follow
+other standards, I have found <a href="http://editorconfig.org/">EditorConfig</a>
+to be useful.</p>
+<h2 id="keep-only-what-you-need">Keep only what you need</h2>
+<p>I try to remove as many unnecessary (visible) characters as possible.</p>
+<pre><code>my_val = $(&#39;#my_input&#39;).val()
+</code></pre><p>Can be written as:</p>
+<pre><code>my_val = $ &#39;#my_input&#39;
+.val()
+</code></pre><p>Although this only removes a pair of brackets and increases the vertical
+space, I find it easier to read.</p>
+<p>Even further:</p>
+<pre><code>my_val = $ &#39;#my_input&#39;
+.css &#39;border&#39;, 0
+.data &#39;my_value&#39;, 12
+.val()
+</code></pre><p>This does remove <code>my_val =</code> from <code>.val()</code>, which can be confusing.</p>
 <h2 id="blank-lines">Blank lines</h2>
 <p>I have a single blank line between related statements and 2 blank lines
 between blocks of related statements.</p>
