@@ -17,7 +17,7 @@ Thank you for your interest!
 
 - [Coding on GitHub](./on/coding_on_GitHub/)
 
-- [CoffeeScript style](./on/coffeescript_style/)
+- [CoffeeScript style](./on/CoffeeScript_style/)
 
 - [Flexible work](./on/flexible_work/)
 
