@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="author" content="Matt McKellar-Spence"><meta name="description" content="My thoughts on various topics"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Why CoffeeScript? thought by MattMS</title><link href="http://css.mattms.info/basic/light/index.css?t=2014-12-21T1300+10" rel="stylesheet" title="Basic light" type="text/css"><link href="http://css.mattms.info/basic/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Basic dark" type="text/css"><link href="http://css.mattms.info/solarized/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Solarized dark" type="text/css"></head><body><article class="container"><h1 id="why-coffeescript">Why CoffeeScript</h1>
+<p>Some of the reasons I prefer <a href="http://coffeescript.org/">CoffeeScript</a>
+over Javascript.</p>
+<h2 id="less-characters">Less characters</h2>
+<p>This may not matter as much with a properly configured editor, but I
+still like the reduced cluter of unnecessary characters.</p>
+<p>I cringe a little whenever I see a block of closing braces/brackets.</p>
+<h3 id="arrow-functions">Arrow functions</h3>
+<p>Simpler function definitions makes for nicer callback code.</p>
+<pre><code>add = (a, b)-&gt; a + b
+</code></pre><p>I know that
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions">ES6 adds arrow functions</a>,
+but this works now!</p>
+<h3 id="arrays-and-objects">Arrays and objects</h3>
+<p>Only add commas and braces if you want to.</p>
+<pre><code>my_arr = [
+    1
+    &#39;b&#39;
+    3
+]
+
+my_obj =
+    a: 1
+    b:
+        c: -&gt;
+            2
+    d: 3
+</code></pre><h3 id="expression-and-returns">Expression and returns</h3>
+<p>Functions will return the value of the last expression, even if it is
+wrapped in flow control statements.</p>
+<pre><code>is_it_even = (number)-&gt;
+    if number % 2
+        &#39;nope&#39;
+    else
+        &#39;yeah&#39;
+
+alert is_it_even 3
+</code></pre><h3 id="simple-loops">Simple loops</h3>
+<pre><code>foods = [&#39;broccoli&#39;, &#39;spinach&#39;, &#39;chocolate&#39;]
+eat food for food in foods when food isnt &#39;chocolate&#39;
+</code></pre><h3 id="words-over-symbols">Words over symbols</h3>
+<ul>
+<li><p><code>is</code> for <code>===</code>. <code>isnt</code> for <code>!==</code>.</p>
+</li>
+<li><p><code>on</code>/<code>yes</code> for <code>true</code>. <code>off</code>/<code>no</code> for <code>false</code>.</p>
+</li>
+<li><p><code>not</code> for <code>!</code>.</p>
+</li>
+<li><p><code>and</code> for <code>&amp;&amp;</code>. <code>or</code> for <code>||</code>.</p>
+</li>
+</ul>
+<p>They read nicer and can avoid some annoying errors.</p>
+<p>You can still use all those symbols if you like.
+Although <code>==</code> is changed to <code>===</code>.</p>
+<h2 id="cool-people-like-it">Cool people like it</h2>
+<ul>
+<li><p><a href="https://github.com/atom/atom">Atom editor</a></p>
+</li>
+<li><p><a href="https://blogs.dropbox.com/tech/2012/09/dropbox-dives-into-coffeescript/">Dropbox</a></p>
+</li>
+<li><p><a href="https://github.com/styleguide/javascript">GitHub</a></p>
+</li>
+<li><p><a href="https://hubot.github.com/">Hubot</a></p>
+</li>
+<li><p><a href="https://trello.com/">Trello</a></p>
+</li>
+<li><p><a href="https://github.com/jashkenas/coffeescript/wiki/In%20The%20Wild">and many others</a></p>
+</li>
+</ul>
+</article><footer class="container"><hr><ul><li><a href="/">Home</a></li><li><a href="http://about.mattms.info">Read about me</a></li><li><a href="https://github.com/MattMS/thoughts.mattms.info">View on GitHub</a></li></ul></footer><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-28026518-3', 'auto');
+ga('send', 'pageview');</script></body></html>
