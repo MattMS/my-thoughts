@@ -25,7 +25,7 @@ Thank you for your interest!
 
 - [Tabs vs spaces](./on/tabs_vs_spaces/)
 
-- [Why CoffeeScript](./on/why_CoffeeScript/)
+- [Why CoffeeScript?](./on/why_CoffeeScript/)
 
 - [Zero-based indexing](./on/zero-based_index/)
 

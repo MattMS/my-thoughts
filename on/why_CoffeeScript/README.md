@@ -7,7 +7,7 @@ over Javascript.
 ## Less characters
 
 This may not matter as much with a properly configured editor, but I
-still like the reduced cluter of unnecessary characters.
+still like the reduced clutter of unnecessary characters.
 
 I cringe a little whenever I see a block of closing braces/brackets.
 
@@ -19,7 +19,7 @@ Simpler function definitions makes for nicer callback code.
 	add = (a, b)-> a + b
 
 I know that
-[ES6 adds arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions),
+[ES6 has arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions),
 but this works now!
 
 
@@ -73,7 +73,7 @@ wrapped in flow control statements.
 
 They read nicer and can avoid some annoying errors.
 
-You can still use all those symbols if you like.
+You can still use all the symbols if you like.
 Although `==` is changed to `===`.
 
 
