@@ -1,0 +1,119 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="author" content="Matt McKellar-Spence"><meta name="description" content="My thoughts on various topics"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Logging life thought by MattMS</title><link href="http://css.mattms.info/basic/light/index.css?t=2014-12-21T1300+10" rel="stylesheet" title="Basic light" type="text/css"><link href="http://css.mattms.info/basic/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Basic dark" type="text/css"><link href="http://css.mattms.info/solarized/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Solarized dark" type="text/css"></head><body><article class="container"><h1 id="logging-life">Logging life</h1>
+<p>I keep a log of most activities I do during the day.
+This started from keeping time logs of work done and then expanded to
+other things I felt like tracking.</p>
+<h2 id="google-sheets">Google Sheets</h2>
+<p>Initially I stored these in Google Sheets, but I had a couple of
+issues that pushed me to change.</p>
+<p>As my files got larger, they became slower to load.
+This was annoying when I wanted to quickly enter a small note.</p>
+<p>The other issue was the table layout.
+Most of the fields (date, start/stop time) were fine, but the fields
+that stored lists (people, tags) did not display as nicely.
+The notes field was even worse, because the layout was encouraging me to
+write less details to avoid the space used.</p>
+<h2 id="yaml">YAML</h2>
+<p><a href="http://yaml.org/">YAML</a> is a structured text file, similar to JSON but
+designed to be more human readable and writable.</p>
+<p>Since it is a plain text file, it opens quickly in any editor.</p>
+<p>It also allows me to expand from the table structure into documents with
+flexible but structured input.</p>
+<h2 id="structure">Structure</h2>
+<p>The format of my logs evolved over the years, but seems to have become
+fairly stable now.</p>
+<p>I record each day as a separate file, with a folder structure to break
+them into years and months: <code>1999/12/31.yaml</code>.</p>
+<p>In the files, the top level is a list of each entry for the day.
+Each entry then contains fields for the different details.</p>
+<h3 id="full-example">Full example</h3>
+<pre><code class="lang-yaml">- date: 1999-12-31
+  notes:
+    - Very formal meeting with Anna and Bill to plan how to take over the world.
+    - Pretty much the same thing we do every night.
+  people:
+    - Anna Amigo
+    - Bill Buddy
+  place: home
+  project: World Domination
+  start: T23:00
+  stop: T23:50
+  tags:
+    - genetic engineering
+    - mice
+  type: attending meeting
+</code></pre>
+<h3 id="date-and-time-fields">Date and time fields</h3>
+<p>The <code>date</code> is in <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO-8601</a>
+format.</p>
+<p>The <code>start</code> and <code>stop</code> fields begin with a <code>T</code> so when they are joined
+with the <code>date</code> field they still conform to ISO-8601.
+There are exceptions to this that I describe in the &quot;Multiple Days&quot;
+section further down.</p>
+<p>This was also because the YAML parser treated <code>00:01</code> as a string and
+<code>01:01</code> as a number.
+Adding <code>T</code> makes them both strings.</p>
+<h3 id="detail-fields">Detail fields</h3>
+<p><code>notes</code> is where all the action is.
+I treat each entry as a paragraph, and wrap them at 80 characters.</p>
+<p><code>people</code> has the full names of people participating.</p>
+<p><code>place</code> is my informal name for where the activity took place.</p>
+<p><code>project</code> is usually my informal name for the project I am working on.</p>
+<p><code>tags</code> are any words that can be used to categorise the entry.
+This may be the name of a product or the subject of the meeting,
+anything that I think may be useful for searching with later.</p>
+<p><code>type</code> describes the type of activity I was doing.
+I almost always keep this to 1 or 2 words.</p>
+<h3 id="single-vs-multiple-strings">Single vs multiple strings</h3>
+<p>I use different fields names for strings and lists.
+This is a small effort to make it easier to parse later.</p>
+<ul>
+<li><p><code>note</code>, <code>notes</code></p>
+</li>
+<li><p><code>person</code>, <code>people</code></p>
+</li>
+<li><p><code>place</code>, <code>places</code></p>
+</li>
+<li><p><code>project</code>, <code>projects</code></p>
+</li>
+<li><p><code>tag</code>, <code>tags</code></p>
+</li>
+<li><p><code>type</code>, <code>types</code></p>
+</li>
+</ul>
+<p>I have been very tempted to change <code>people</code> to <code>persons</code> but have not
+made that jump yet.</p>
+<h3 id="short-example">Short example</h3>
+<p>If the <code>type</code> fully describes the activity, then I only need to include
+the date and times.</p>
+<pre><code class="lang-yaml">- date: 1999-12-31
+  start: T23:50
+  stop: T23:59
+  type: writing notes
+</code></pre>
+<h3 id="multiple-days">Multiple days</h3>
+<p>If the activity I am doing goes over midnight, then I prefix the <code>start</code>
+and <code>stop</code> times with their dates.</p>
+<pre><code class="lang-yaml">- date: 1999-12-31
+  start: 1999-12-31T23:59
+  stop: 2000-01-01T00:01
+  type: writing notes
+</code></pre>
+<p>This should not be a major issue for parsing, because each will be a
+string, and simple times will always start with a <code>T</code>.</p>
+<p>I leave the date field as I find it quicker to read.</p>
+<h2 id="editing">Editing</h2>
+<p>I find this format very quick to edit because I am able to copy other
+entry blocks and update them for a new entry.
+This is even quicker for entries on the same day.</p>
+<p>The level of detail I included increased over time.
+So I started with simply times and type of activities, sometimes some
+notes.
+As it became more natural, I added the extra fields like <code>tags</code> and
+<code>people</code>.</p>
+<p>It is quicker and easier to access than anything I have found since.</p>
+</article><footer class="container"><hr><ul><li><a href="/">Home</a></li><li><a href="http://about.mattms.info">Read about me</a></li><li><a href="https://github.com/MattMS/thoughts.mattms.info">View on GitHub</a></li></ul></footer><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-28026518-3', 'auto');
+ga('send', 'pageview');</script></body></html>
