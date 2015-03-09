@@ -19,8 +19,6 @@ Thank you for your interest!
 
 - [CoffeeScript style](./on/CoffeeScript_style/)
 
-- [Flexible work](./on/flexible_work/)
-
 - [My coding evolution](./on/my_coding_evolution/)
 
 - [Tabs vs spaces](./on/tabs_vs_spaces/)
@@ -30,16 +28,25 @@ Thank you for your interest!
 - [Zero-based indexing](./on/zero-based_index/)
 
 
-## Goals
-
-- [Making myself redundant](./on/making_myself_redundant/)
+## Experiences
 
 - [Year-beard](./on/year-beard/)
+
+
+## Practices
+
+- [Flexible work](./on/flexible_work/)
+
+- [Logging life](./on/logging_life/)
+
+- [Making myself redundant](./on/making_myself_redundant/)
 
 
 ## Society
 
 - [Discrimination](./on/discrimination/)
+
+- [Homelessness](./on/homelessness/)
 
 - [Is idea theft wrong?](./on/is_idea_theft_wrong/)
 
