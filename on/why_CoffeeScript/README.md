@@ -48,12 +48,19 @@ Instead of:
 	}
 
 
-### Slices
+### Slicing arrays
 
-	middle  = numbers[1..-2]
+	middle = numbers[1..-2]
+	another_middle = numbers[1...-1]
+	same = middle is another_middle
+
+Three dots has an exlusive end point.
 
 
 ## ES6 already
+
+The syntax is different to ES6, but the functionality is similar.
+
 
 ### Arrow functions
 

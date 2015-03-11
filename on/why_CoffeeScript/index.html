@@ -29,9 +29,13 @@ my_obj =
 <pre><code>if (typeof my_obj !== &quot;undefined&quot; &amp;&amp; my_obj !== null) {
     alert(&quot;It exists!&quot;);
 }
-</code></pre><h3 id="slices">Slices</h3>
-<pre><code>middle  = numbers[1..-2]
-</code></pre><h2 id="es6-already">ES6 already</h2>
+</code></pre><h3 id="slicing-arrays">Slicing arrays</h3>
+<pre><code>middle = numbers[1..-2]
+another_middle = numbers[1...-1]
+same = middle is another_middle
+</code></pre><p>Three dots has an exlusive end point.</p>
+<h2 id="es6-already">ES6 already</h2>
+<p>The syntax is different to ES6, but the functionality is similar.</p>
 <h3 id="arrow-functions">Arrow functions</h3>
 <p>Simpler function definitions makes for nicer callback code.</p>
 <pre><code>add = (a, b)-&gt; a + b
