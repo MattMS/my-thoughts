@@ -51,10 +51,14 @@ class Player extends Person
 me = new Player &quot;Matt&quot;,
     x: 0
     y: 0
-
-me.move
-    x: 10
-    y: 0
+</code></pre><h3 id="generators">Generators</h3>
+<p>Use <code>yield</code> with no <code>function*</code> necessary.</p>
+<pre><code>ps = -&gt;
+    num = 0
+    loop
+        num += 1
+        yield num * num
+    return
 </code></pre><h3 id="multi-line-and-template-strings">Multi-line and template strings</h3>
 <pre><code>name = &quot;world&quot;
 

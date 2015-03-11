@@ -83,9 +83,17 @@ Simpler function definitions makes for nicer callback code.
 		x: 0
 		y: 0
 
-	me.move
-		x: 10
-		y: 0
+
+### Generators
+
+Use `yield` with no `function*` necessary.
+
+	ps = ->
+		num = 0
+		loop
+			num += 1
+			yield num * num
+		return
 
 
 ### Multi-line and template strings
