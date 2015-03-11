@@ -82,10 +82,7 @@ But they must be double quotes instead of single.</p>
 <h3 id="default-values">Default values</h3>
 <pre><code>add = (start, amount=1)-&gt;
     start + amount
-</code></pre><h3 id="variable-arguments">Variable arguments</h3>
-<pre><code>blah = (many_blahs...)-&gt;
-    alert one_blah for one_blah in many_blahs
-</code></pre><h2 id="free-returns">Free returns</h2>
+</code></pre><h3 id="free-returns">Free returns</h3>
 <p>Functions will return the value of the last expression, even if it is
 wrapped in flow control statements.</p>
 <pre><code>is_it_even = (number)-&gt;
@@ -100,6 +97,9 @@ alert is_it_even 3
     health: 255
     money: 10
     name: name
+</code></pre><h3 id="variable-arguments">Variable arguments</h3>
+<pre><code>blah = (many_blahs...)-&gt;
+    alert one_blah for one_blah in many_blahs
 </code></pre><h2 id="loops">Loops</h2>
 <h3 id="comprehensions">Comprehensions</h3>
 <pre><code>doubles = (num * 2 for num in [1..10])

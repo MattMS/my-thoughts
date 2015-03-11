@@ -131,13 +131,7 @@ But they must be double quotes instead of single.
 		start + amount
 
 
-### Variable arguments
-
-	blah = (many_blahs...)->
-		alert one_blah for one_blah in many_blahs
-
-
-## Free returns
+### Free returns
 
 Functions will return the value of the last expression, even if it is
 wrapped in flow control statements.
@@ -157,6 +151,12 @@ Returning an object is simpler too.
 		health: 255
 		money: 10
 		name: name
+
+
+### Variable arguments
+
+	blah = (many_blahs...)->
+		alert one_blah for one_blah in many_blahs
 
 
 ## Loops
