@@ -1,16 +1,10 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="author" content="Matt McKellar-Spence"><meta name="description" content="My thoughts on various topics"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Why CoffeeScript? thought by MattMS</title><link href="http://css.mattms.info/basic/light/index.css?t=2014-12-21T1300+10" rel="stylesheet" title="Basic light" type="text/css"><link href="http://css.mattms.info/basic/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Basic dark" type="text/css"><link href="http://css.mattms.info/solarized/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Solarized dark" type="text/css"></head><body><article class="container"><h1 id="why-coffeescript">Why CoffeeScript</h1>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="author" content="Matt McKellar-Spence"><meta name="description" content="My thoughts on various topics"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Why CoffeeScript? thought by MattMS</title><link href="http://css.mattms.info/basic/light/index.css?t=2014-12-21T1300+10" rel="stylesheet" title="Basic light" type="text/css"><link href="http://css.mattms.info/basic/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Basic dark" type="text/css"><link href="http://css.mattms.info/solarized/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Solarized dark" type="text/css"></head><body><article class="container"><h1 id="why-coffeescript-">Why CoffeeScript?</h1>
 <p>Some of the reasons I prefer <a href="http://coffeescript.org/">CoffeeScript</a>
 over Javascript.</p>
 <h2 id="less-characters">Less characters</h2>
 <p>This may not matter as much with a properly configured editor, but I
 still like the reduced clutter of unnecessary characters.</p>
-<p>I cringe a little whenever I see a block of closing braces/brackets.</p>
-<h3 id="arrow-functions">Arrow functions</h3>
-<p>Simpler function definitions makes for nicer callback code.</p>
-<pre><code>add = (a, b)-&gt; a + b
-</code></pre><p>I know that
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions">ES6 has arrow functions</a>,
-but this works now!</p>
+<p>No more blocks of closing braces/brackets!</p>
 <h3 id="arrays-and-objects">Arrays and objects</h3>
 <p>Only add commas and braces if you want to.</p>
 <pre><code>my_arr = [
@@ -25,7 +19,57 @@ my_obj =
         c: -&gt;
             2
     d: 3
-</code></pre><h3 id="expression-and-returns">Expression and returns</h3>
+</code></pre><p>The colons are still necessary otherwise those would be function calls.</p>
+<h3 id="enlightened-existential-expressions">Enlightened existential expressions</h3>
+<pre><code>if my_obj?
+    alert &#39;It exists!&#39;
+</code></pre><p>Or:</p>
+<pre><code>alert &#39;It exists!&#39; if my_obj?
+</code></pre><p>Instead of:</p>
+<pre><code>if (typeof my_obj !== &quot;undefined&quot; &amp;&amp; my_obj !== null) {
+    alert(&quot;It exists!&quot;);
+}
+</code></pre><h3 id="slices">Slices</h3>
+<pre><code>middle  = numbers[1..-2]
+</code></pre><h2 id="es6-already">ES6 already</h2>
+<h3 id="arrow-functions">Arrow functions</h3>
+<p>Simpler function definitions makes for nicer callback code.</p>
+<pre><code>add = (a, b)-&gt; a + b
+</code></pre><h3 id="classes">Classes</h3>
+<pre><code>class Person
+    constructor: (@name, @pos)-&gt;
+
+class Player extends Person
+    move: (by)-&gt;
+        @pos.x += by.x
+        @pos.y += by.y
+
+me = new Player &quot;Matt&quot;,
+    x: 0
+    y: 0
+
+me.move
+    x: 10
+    y: 0
+</code></pre><h3 id="multi-line-and-template-strings">Multi-line and template strings</h3>
+<pre><code>name = &quot;world&quot;
+
+message = &quot;Hello #{name},
+How are you?&quot;
+
+html = &quot;&quot;&quot;
+&lt;p class=&quot;alert&quot;&gt;#{message}&lt;/p&gt;
+&quot;&quot;&quot;
+</code></pre><p>No need to switch to backticks!
+But they must be double quotes instead of single.</p>
+<h2 id="fancier-functions">Fancier functions</h2>
+<h3 id="default-values">Default values</h3>
+<pre><code>add = (start, amount=1)-&gt;
+    start + amount
+</code></pre><h3 id="splats">Splats</h3>
+<pre><code>blah = (many_blahs...)-&gt;
+    alert one_blah for one_blah in many_blahs
+</code></pre><h2 id="free-returns">Free returns</h2>
 <p>Functions will return the value of the last expression, even if it is
 wrapped in flow control statements.</p>
 <pre><code>is_it_even = (number)-&gt;
@@ -35,7 +79,30 @@ wrapped in flow control statements.</p>
         &#39;yeah&#39;
 
 alert is_it_even 3
-</code></pre><h3 id="simple-loops">Simple loops</h3>
+</code></pre><p>Returning an object is simpler too.</p>
+<pre><code>new_player = (name)-&gt;
+    health: 255
+    money: 10
+    name: name
+</code></pre><h2 id="loops">Loops</h2>
+<h3 id="comprehensions">Comprehensions</h3>
+<pre><code>doubles = (num * 2 for num in [1..10])
+
+countdown = (num for num in [10..1])
+</code></pre><h3 id="object-looping">Object looping</h3>
+<pre><code>scores =
+    anna: 12
+    bill: 6
+    charlie: 23
+
+messages = for name, score of scores
+    &quot;#{name} got #{score}&quot;
+</code></pre><h3 id="while-loops">While loops</h3>
+<pre><code>if studying_economics
+    buy() while supply &gt; demand
+    sell() until supply &gt; demand
+</code></pre><h2 id="reads-nicely">Reads nicely</h2>
+<h3 id="simple-loops">Simple loops</h3>
 <pre><code>foods = [&#39;broccoli&#39;, &#39;spinach&#39;, &#39;chocolate&#39;]
 eat food for food in foods when food isnt &#39;chocolate&#39;
 </code></pre><h3 id="words-over-symbols">Words over symbols</h3>

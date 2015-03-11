@@ -1,4 +1,4 @@
-# Why CoffeeScript
+# Why CoffeeScript?
 
 Some of the reasons I prefer [CoffeeScript](http://coffeescript.org/)
 over Javascript.
@@ -9,18 +9,7 @@ over Javascript.
 This may not matter as much with a properly configured editor, but I
 still like the reduced clutter of unnecessary characters.
 
-I cringe a little whenever I see a block of closing braces/brackets.
-
-
-### Arrow functions
-
-Simpler function definitions makes for nicer callback code.
-
-	add = (a, b)-> a + b
-
-I know that
-[ES6 has arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions),
-but this works now!
+No more blocks of closing braces/brackets!
 
 
 ### Arrays and objects
@@ -40,8 +29,88 @@ Only add commas and braces if you want to.
 				2
 		d: 3
 
+The colons are still necessary otherwise those would be function calls.
 
-### Expression and returns
+
+### Enlightened existential expressions
+
+	if my_obj?
+		alert 'It exists!'
+
+Or:
+
+	alert 'It exists!' if my_obj?
+
+Instead of:
+
+	if (typeof my_obj !== "undefined" && my_obj !== null) {
+		alert("It exists!");
+	}
+
+
+### Slices
+
+	middle  = numbers[1..-2]
+
+
+## ES6 already
+
+### Arrow functions
+
+Simpler function definitions makes for nicer callback code.
+
+	add = (a, b)-> a + b
+
+
+### Classes
+
+	class Person
+		constructor: (@name, @pos)->
+
+	class Player extends Person
+		move: (by)->
+			@pos.x += by.x
+			@pos.y += by.y
+
+	me = new Player "Matt",
+		x: 0
+		y: 0
+
+	me.move
+		x: 10
+		y: 0
+
+
+### Multi-line and template strings
+
+	name = "world"
+
+	message = "Hello #{name},
+	How are you?"
+
+	html = """
+	<p class="alert">#{message}</p>
+	"""
+
+No need to switch to backticks!
+But they must be double quotes instead of single.
+
+
+## Fancier functions
+
+### Default values
+
+	add = (start, amount=1)->
+		start + amount
+
+
+### Splats
+
+	blah = (many_blahs...)->
+		alert one_blah for one_blah in many_blahs
+
+
+## Free returns
 
 Functions will return the value of the last expression, even if it is
 wrapped in flow control statements.
@@ -54,6 +123,43 @@ wrapped in flow control statements.
 
 	alert is_it_even 3
 
+
+Returning an object is simpler too.
+
+	new_player = (name)->
+		health: 255
+		money: 10
+		name: name
+
+
+## Loops
+
+### Comprehensions
+
+	doubles = (num * 2 for num in [1..10])
+
+	countdown = (num for num in [10..1])
+
+
+### Object looping
+
+	scores =
+		anna: 12
+		bill: 6
+		charlie: 23
+
+	messages = for name, score of scores
+		"#{name} got #{score}"
+
+
+### While loops
+
+	if studying_economics
+		buy() while supply > demand
+		sell() until supply > demand
+
+
+## Reads nicely
 
 ### Simple loops
 
