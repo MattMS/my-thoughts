@@ -3,11 +3,10 @@
 Some of the reasons I prefer [CoffeeScript](http://coffeescript.org/)
 over Javascript.
 
+It also shows the way I like to write CoffeeScript.
 
-## Less characters
 
-This may not matter as much with a properly configured editor, but I
-still like the reduced clutter of unnecessary characters.
+## Less characters, less clutter
 
 No more blocks of closing braces/brackets!
 
@@ -49,11 +48,11 @@ Starting a line with a dot will close the call from the previous line.
 	if my_obj?
 		alert 'It exists!'
 
-Or:
+Or
 
 	alert 'It exists!' if my_obj?
 
-Instead of:
+Instead of
 
 	if (typeof my_obj !== "undefined" && my_obj !== null) {
 		alert("It exists!");
@@ -66,12 +65,12 @@ Instead of:
 	another_middle = numbers[1...-1]
 	same = middle is another_middle
 
-Three dots has an exlusive end point.
+Three dots makes the end point exlusive.
 
 
 ## ES6 already
 
-The syntax is different to ES6, but the functionality is similar.
+The syntax is different to ES6, but functionality is the same.
 
 
 ### Arrow functions
@@ -98,7 +97,7 @@ Simpler function definitions makes for nicer callback code.
 
 ### Generators
 
-Use `yield` with no `function*` necessary.
+Use `yield` without needing `function*`!
 
 	ps = ->
 		num = 0

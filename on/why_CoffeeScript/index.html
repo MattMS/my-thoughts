@@ -1,9 +1,8 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="author" content="Matt McKellar-Spence"><meta name="description" content="My thoughts on various topics"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Why CoffeeScript? thought by MattMS</title><link href="http://css.mattms.info/basic/light/index.css?t=2014-12-21T1300+10" rel="stylesheet" title="Basic light" type="text/css"><link href="http://css.mattms.info/basic/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Basic dark" type="text/css"><link href="http://css.mattms.info/solarized/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Solarized dark" type="text/css"></head><body><article class="container"><h1 id="why-coffeescript-">Why CoffeeScript?</h1>
 <p>Some of the reasons I prefer <a href="http://coffeescript.org/">CoffeeScript</a>
 over Javascript.</p>
-<h2 id="less-characters">Less characters</h2>
-<p>This may not matter as much with a properly configured editor, but I
-still like the reduced clutter of unnecessary characters.</p>
+<p>It also shows the way I like to write CoffeeScript.</p>
+<h2 id="less-characters-less-clutter">Less characters, less clutter</h2>
 <p>No more blocks of closing braces/brackets!</p>
 <h3 id="arrays-and-objects">Arrays and objects</h3>
 <p>Only add commas and braces if you want to.</p>
@@ -31,9 +30,9 @@ my_obj =
 <h3 id="enlightened-existential-expressions">Enlightened existential expressions</h3>
 <pre><code>if my_obj?
     alert &#39;It exists!&#39;
-</code></pre><p>Or:</p>
+</code></pre><p>Or</p>
 <pre><code>alert &#39;It exists!&#39; if my_obj?
-</code></pre><p>Instead of:</p>
+</code></pre><p>Instead of</p>
 <pre><code>if (typeof my_obj !== &quot;undefined&quot; &amp;&amp; my_obj !== null) {
     alert(&quot;It exists!&quot;);
 }
@@ -41,9 +40,9 @@ my_obj =
 <pre><code>middle = numbers[1..-2]
 another_middle = numbers[1...-1]
 same = middle is another_middle
-</code></pre><p>Three dots has an exlusive end point.</p>
+</code></pre><p>Three dots makes the end point exlusive.</p>
 <h2 id="es6-already">ES6 already</h2>
-<p>The syntax is different to ES6, but the functionality is similar.</p>
+<p>The syntax is different to ES6, but functionality is the same.</p>
 <h3 id="arrow-functions">Arrow functions</h3>
 <p>Simpler function definitions makes for nicer callback code.</p>
 <pre><code>add = (a, b)-&gt; a + b
@@ -60,7 +59,7 @@ me = new Player &quot;Matt&quot;,
     x: 0
     y: 0
 </code></pre><h3 id="generators">Generators</h3>
-<p>Use <code>yield</code> with no <code>function*</code> necessary.</p>
+<p>Use <code>yield</code> without needing <code>function*</code>!</p>
 <pre><code>ps = -&gt;
     num = 0
     loop
