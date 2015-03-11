@@ -32,6 +32,18 @@ Only add commas and braces if you want to.
 The colons are still necessary otherwise those would be function calls.
 
 
+### Chaining function calls
+
+	$ '#my_element'
+	.css 'color', red
+	.data 'stats',
+		a: 1
+		b: 2
+	.show()
+
+Starting a line with a dot will close the call from the previous line.
+
+
 ### Enlightened existential expressions
 
 	if my_obj?
@@ -119,7 +131,7 @@ But they must be double quotes instead of single.
 		start + amount
 
 
-### Splats
+### Variable arguments
 
 	blah = (many_blahs...)->
 		alert one_blah for one_blah in many_blahs

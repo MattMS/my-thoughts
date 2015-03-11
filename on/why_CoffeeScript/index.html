@@ -20,6 +20,14 @@ my_obj =
             2
     d: 3
 </code></pre><p>The colons are still necessary otherwise those would be function calls.</p>
+<h3 id="chaining-function-calls">Chaining function calls</h3>
+<pre><code>$ &#39;#my_element&#39;
+.css &#39;color&#39;, red
+.data &#39;stats&#39;,
+    a: 1
+    b: 2
+.show()
+</code></pre><p>Starting a line with a dot will close the call from the previous line.</p>
 <h3 id="enlightened-existential-expressions">Enlightened existential expressions</h3>
 <pre><code>if my_obj?
     alert &#39;It exists!&#39;
@@ -74,7 +82,7 @@ But they must be double quotes instead of single.</p>
 <h3 id="default-values">Default values</h3>
 <pre><code>add = (start, amount=1)-&gt;
     start + amount
-</code></pre><h3 id="splats">Splats</h3>
+</code></pre><h3 id="variable-arguments">Variable arguments</h3>
 <pre><code>blah = (many_blahs...)-&gt;
     alert one_blah for one_blah in many_blahs
 </code></pre><h2 id="free-returns">Free returns</h2>
