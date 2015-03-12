@@ -27,7 +27,9 @@ my_obj =
     b: 2
 .show()
 </code></pre><p>Starting a line with a dot will close the call from the previous line.</p>
-<h3 id="enlightened-existential-expressions">Enlightened existential expressions</h3>
+<h3 id="embedding-function-calls">Embedding function calls</h3>
+<pre><code>nine = square add 1, 2
+</code></pre><h3 id="enlightened-existential-expressions">Enlightened existential expressions</h3>
 <pre><code>if my_obj?
     alert &#39;It exists!&#39;
 </code></pre><p>Or</p>
@@ -47,6 +49,8 @@ same = middle is another_middle
 <p>Simpler function definitions makes for nicer callback code.</p>
 <pre><code>add = (a, b)-&gt; a + b
 </code></pre><h3 id="classes">Classes</h3>
+<p>Prefixing arguments with <code>@</code> sets them as an instance value.
+Same as <code>Person(name) {this.name = name;}</code>.</p>
 <pre><code>class Person
     constructor: (@name, @pos)-&gt;
 
@@ -59,7 +63,8 @@ me = new Player &quot;Matt&quot;,
     x: 0
     y: 0
 </code></pre><h3 id="generators">Generators</h3>
-<p>Use <code>yield</code> without needing <code>function*</code>!</p>
+<p>Use <code>yield</code> without needing <code>function*</code>!
+This needs to be run in an ES6 interpreter.</p>
 <pre><code>ps = -&gt;
     num = 0
     loop
@@ -101,6 +106,7 @@ alert is_it_even 3
     alert one_blah for one_blah in many_blahs
 </code></pre><h2 id="loops">Loops</h2>
 <h3 id="comprehensions">Comprehensions</h3>
+<p>These create arrays with values from the loops.</p>
 <pre><code>doubles = (num * 2 for num in [1..10])
 
 countdown = (num for num in [10..1])
@@ -131,7 +137,7 @@ eat food for food in foods when food isnt &#39;chocolate&#39;
 <li><p><code>and</code> for <code>&amp;&amp;</code>. <code>or</code> for <code>||</code>.</p>
 </li>
 </ul>
-<p>They read nicer and can avoid some annoying errors.</p>
+<p>Nicer to read and avoids annoying JS errors.</p>
 <p>You can still use all the symbols if you like.
 Although <code>==</code> is changed to <code>===</code>.</p>
 <h2 id="cool-people-like-it">Cool people like it</h2>
