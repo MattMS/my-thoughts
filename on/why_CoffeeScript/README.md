@@ -43,6 +43,11 @@ The colons are still necessary otherwise those would be function calls.
 Starting a line with a dot will close the call from the previous line.
 
 
+### Embedding function calls
+
+	nine = square add 1, 2
+
+
 ### Enlightened existential expressions
 
 	if my_obj?
@@ -82,6 +87,9 @@ Simpler function definitions makes for nicer callback code.
 
 ### Classes
 
+Prefixing arguments with `@` sets them as an instance value.
+Same as `Person(name) {this.name = name;}`.
+
 	class Person
 		constructor: (@name, @pos)->
 
@@ -98,6 +106,7 @@ Simpler function definitions makes for nicer callback code.
 ### Generators
 
 Use `yield` without needing `function*`!
+This needs to be run in an ES6 interpreter.
 
 	ps = ->
 		num = 0
@@ -162,6 +171,8 @@ Returning an object is simpler too.
 
 ### Comprehensions
 
+These create arrays with values from the loops.
+
 	doubles = (num * 2 for num in [1..10])
 
 	countdown = (num for num in [10..1])
@@ -203,7 +214,7 @@ Returning an object is simpler too.
 
 - `and` for `&&`. `or` for `||`.
 
-They read nicer and can avoid some annoying errors.
+Nicer to read and avoids annoying JS errors.
 
 You can still use all the symbols if you like.
 Although `==` is changed to `===`.
