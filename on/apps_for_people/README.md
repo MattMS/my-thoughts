@@ -12,9 +12,9 @@ how they are wanting to use it.
 There will likely be more types of users than you initially expect.
 
 
-### Messaging example
+### Users in a messaging app
 
-These are possible user types for a messaging platform.
+Here are some of the possible user types for a messaging platform.
 
 - All users want to send and receive messages.
 
@@ -28,7 +28,7 @@ These are possible user types for a messaging platform.
   they can know when they need to increase the capacity.
 
 Learning user types will expose the scope of the project and allow
-planning of user interfaces.
+planning of new user interfaces.
 
 
 ## Regular feedback
