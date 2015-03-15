@@ -15,41 +15,42 @@ Thank you for your interest!
 
 ## Experiences
 
-- [My coding evolution](./on/my_coding_evolution/)
+- How I spent [a year without shaving](./on/year-beard/).
 
-- [Year-beard](./on/year-beard/)
+- My [progression through coding languages](./on/my_coding_evolution/).
 
 
 ## Practices
 
-- [Coding on GitHub](./on/coding_on_GitHub/)
+- Ensuring future happiness by
+  [making myself redundant](./on/making_myself_redundant/).
 
-- [Describing projects](./on/describing_projects/)
+- [Flexible work](./on/flexible_work/) with distributed teams.
 
-- [Flexible work](./on/flexible_work/)
+- How to [describe project features](./on/describing_projects/).
 
-- [Logging life](./on/logging_life/)
+- [Keeping notes and time spent](./on/logging_life/) on activities.
 
-- [Making myself redundant](./on/making_myself_redundant/)
+- What I look for in [projects on GitHub](./on/coding_on_GitHub/).
 
 
 ## Preferences
 
-- [CoffeeScript style](./on/CoffeeScript_style/)
+- Why I dislike [zero-based indexing](./on/zero-based_index/).
 
-- [Tabs vs spaces](./on/tabs_vs_spaces/)
+- [Why I like CoffeeScript](./on/why_CoffeeScript/)
+  and [my coding style](./on/CoffeeScript_style/) with it.
 
-- [Why CoffeeScript?](./on/why_CoffeeScript/)
-
-- [Zero-based indexing](./on/zero-based_index/)
+- Why I prefer [tabs over spaces](./on/tabs_vs_spaces/)
 
 
 ## Society
 
-- [Discrimination](./on/discrimination/)
+- My beliefs and views on [religion](./on/religion/).
 
-- [Homelessness](./on/homelessness/)
+- [Questioning if idea theft is wrong](./on/is_idea_theft_wrong/).
 
-- [Is idea theft wrong?](./on/is_idea_theft_wrong/)
+- Recognising [discrimination](./on/discrimination/).
 
-- [Religion](./on/religion/)
+- Rethinking [homelessness](./on/homelessness/) to fix my limited
+  knowledge of it.
