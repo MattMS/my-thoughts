@@ -41,10 +41,11 @@ planning of features.
 
 Features of an application can be described as stories.
 
-> As a group manager
-> I want to add a user to my group
-> So that they can receive group messages.
+> As a group manager,
+> I want to add a user to my group,
+> so that they can receive group messages.
 
+The usual structure is "As a ? I want ? so that ?".
 This specifies the type of user, the functionality they want and then
 why they want that functionality.
 
@@ -61,9 +62,9 @@ Every feature requires test criteria to describe when it is complete.
 - Testers use it to confirm the feature has been implemented properly.
 
 > Given I am a group manager
-> And I am on a user profile page
-> When I click the "add user to group" button
-> Then the user becomes part of my group.
+> and I am on a user profile page,
+> when I click the "add user to group" button,
+> then the user becomes part of my group.
 
 The main structure of the test is "given ? when ? then ?".
 Each of those sections can include multiple states, actions and results
