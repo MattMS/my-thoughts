@@ -13,33 +13,35 @@ so my writing is not misinterpreted.
 Thank you for your interest!
 
 
-## Computing
-
-- [Coding on GitHub](./on/coding_on_GitHub/)
-
-- [CoffeeScript style](./on/CoffeeScript_style/)
+## Experiences
 
 - [My coding evolution](./on/my_coding_evolution/)
-
-- [Tabs vs spaces](./on/tabs_vs_spaces/)
-
-- [Why CoffeeScript?](./on/why_CoffeeScript/)
-
-- [Zero-based indexing](./on/zero-based_index/)
-
-
-## Experiences
 
 - [Year-beard](./on/year-beard/)
 
 
 ## Practices
 
+- [Coding on GitHub](./on/coding_on_GitHub/)
+
+- [Describing projects](./on/describing_projects/)
+
 - [Flexible work](./on/flexible_work/)
 
 - [Logging life](./on/logging_life/)
 
 - [Making myself redundant](./on/making_myself_redundant/)
+
+
+## Preferences
+
+- [CoffeeScript style](./on/CoffeeScript_style/)
+
+- [Tabs vs spaces](./on/tabs_vs_spaces/)
+
+- [Why CoffeeScript?](./on/why_CoffeeScript/)
+
+- [Zero-based indexing](./on/zero-based_index/)
 
 
 ## Society
