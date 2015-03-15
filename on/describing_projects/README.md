@@ -82,6 +82,11 @@ The main structure of the test is "given ? when ? then ?".
 Each of those sections can include multiple states, actions and results
 that are joined with "and ?".
 
+These can be used for automated testing with Cucumber for
+[Ruby](https://cukes.info/),
+[Node](https://github.com/cucumber/cucumber-js)
+or [Python](http://lettuce.it/) (as Lettuce).
+
 
 ## Regular feedback
 
