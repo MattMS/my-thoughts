@@ -1,18 +1,24 @@
 # Apps for people
 
-This describes how to focus your development on the people you are
-working for, rather than simply building what they think they want.
+This describes some ways to gather information from clients about
+features requests.
 
 
-## Why not what
+## Problems with feature requests
 
-You should think about who needs infromation from the application and
-how they are wanting to use it.
+Clients may request features because they are unaware of alternatives.
 
-There will likely be more types of users than you initially expect.
+Requests may also be based on existing work-flows that will change with
+the new product, making the feature unnecessary.
+
+Discovering why a client wants a feature will help decide if and how it
+should be implemented.
 
 
-### Users in a messaging app
+## Define user types
+
+Before deciding on functionality, you need to know the users types that
+require it.
 
 Here are some of the possible user types for a messaging platform.
 
@@ -28,7 +34,39 @@ Here are some of the possible user types for a messaging platform.
   they can know when they need to increase the capacity.
 
 Learning user types will expose the scope of the project and allow
-planning of new user interfaces.
+planning of features.
+
+
+## Use stories to describe features
+
+Features of an application can be described as stories.
+
+	As a group manager
+	I want to add a user to my group
+	So that they can receive group messages.
+
+This specifies the type of user, the functionality they want and then
+why they want that functionality.
+
+The "so that" part is used to justify why a person wants a feature.
+This may expose issues with the feature that lead to a better solution.
+
+
+## Define test criteria for stories
+
+Every story requires test criteria to know when it is complete.
+
+Developers use this to know what work must be done.
+Testers use it to confirm it has been implemented.
+
+	Given I am a group manager
+	And I am on a user profile page
+	When I click the "add user to group" button
+	Then the user becomes part of my group.
+
+The main structure of the test is "Given ? When ? Then ?".
+Each of these sections can include multiple states, actions and results
+that are joined with "and".
 
 
 ## Regular feedback
