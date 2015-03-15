@@ -1,4 +1,4 @@
-# Apps for people
+# Describing projects
 
 This describes some ways to gather information from clients about
 projects.
