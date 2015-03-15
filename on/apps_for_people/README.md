@@ -1,7 +1,7 @@
 # Apps for people
 
 This describes some ways to gather information from clients about
-features requests.
+projects.
 
 
 ## Problems with feature requests
@@ -17,14 +17,14 @@ should be implemented.
 
 ## Define user types
 
-Before deciding on functionality, you need to know the users types that
-require it.
+Before deciding on functionality, you need to know the types of users
+that require it.
 
 Here are some of the possible user types for a messaging platform.
 
 - All users want to send and receive messages.
 
-- Users want to be able to organise and view old messages.
+- All users want to be able to organise and view old messages.
 
 - Group managers want to add and remove users from their group.
 
@@ -41,9 +41,9 @@ planning of features.
 
 Features of an application can be described as stories.
 
-	As a group manager
-	I want to add a user to my group
-	So that they can receive group messages.
+> As a group manager
+> I want to add a user to my group
+> So that they can receive group messages.
 
 This specifies the type of user, the functionality they want and then
 why they want that functionality.
@@ -52,21 +52,22 @@ The "so that" part is used to justify why a person wants a feature.
 This may expose issues with the feature that lead to a better solution.
 
 
-## Define test criteria for stories
+## Define test criteria for features
 
-Every story requires test criteria to know when it is complete.
+Every feature requires test criteria to describe when it is complete.
 
-Developers use this to know what work must be done.
-Testers use it to confirm it has been implemented.
+- Developers use this to know what work must be done.
 
-	Given I am a group manager
-	And I am on a user profile page
-	When I click the "add user to group" button
-	Then the user becomes part of my group.
+- Testers use it to confirm the feature has been implemented properly.
 
-The main structure of the test is "Given ? When ? Then ?".
-Each of these sections can include multiple states, actions and results
-that are joined with "and".
+> Given I am a group manager
+> And I am on a user profile page
+> When I click the "add user to group" button
+> Then the user becomes part of my group.
+
+The main structure of the test is "given ? when ? then ?".
+Each of those sections can include multiple states, actions and results
+that are joined with "and ?".
 
 
 ## Regular feedback
@@ -74,8 +75,6 @@ that are joined with "and".
 You should try to have something to test at regular intervals, such as
 every 2 weeks.
 
-When people test what you are making, they will give feedback that may
-change the initial scope and direction of the project.
-
+Feedback from client testing may result in scope changes.
 This is not a bad thing, as long as the client is made aware of the
 consequences of the choices they are requesting.
