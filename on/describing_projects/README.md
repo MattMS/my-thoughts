@@ -36,7 +36,7 @@ This list specifies the types of users and their main goals.
 
 ## Use stories to describe features
 
-Features of an application can be described as stories.
+Features of an application can be described as stories:
 
 > As a group manager,
 > I want to add a user to my group,
@@ -48,6 +48,19 @@ for it.
 
 The "so that" part is used to justify why a person wants a feature.
 This may expose issues with the feature that lead to a better solution.
+
+
+## Decide importance of features
+
+Features should be given an importance in relation to the project.
+
+- "Must have" means the project fails without them.
+
+- "Should have" will not stop the project being delivered, but will be
+  given preference if there is time.
+
+- "Nice to have" are unlikely to be done, but still worth noting for a
+  future release.
 
 
 ## Define test criteria for features
