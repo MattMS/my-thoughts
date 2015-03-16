@@ -88,6 +88,34 @@ These can be used for automated testing with Cucumber for
 or [Python](http://lettuce.it/) (as Lettuce).
 
 
+## Rate the complexity of tasks
+
+These scores are relative to each other but do not convert to specific
+times.
+
+This is a guide for how I usually rate tasks.
+These vary between projects so they should only be used as a starting
+point.
+
+- 0: Work is finished and just needs to be tested.
+
+- 1: Quick change that anyone could do.
+
+- 2: Changing something that requires some knowledge of impacts.
+
+- 3: Bigger change but work is still clear.
+
+- 5: Change with some uncertainty.
+
+- 8: New feature with planning required.
+
+- 13: Feature change that will impact multiple areas.
+  Enough uncertainty that it will probably take longer than expected.
+
+- 21: Major task that requires discussion and planning.
+  May be broken down into further tasks after more research.
+
+
 ## Regular feedback
 
 You should try to have something to test at regular intervals, such as
