@@ -47,6 +47,10 @@ Starting a line with a dot will close the call from the previous line.
 
 	nine = square add 1, 2
 
+Gives
+
+	var nine = square(add(1, 2));
+
 
 ### Enlightened existential expressions
 
