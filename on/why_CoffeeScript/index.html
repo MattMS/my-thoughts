@@ -19,19 +19,7 @@ my_obj =
             2
     d: 3
 </code></pre><p>The colons are still necessary otherwise those would be function calls.</p>
-<h3 id="chaining-function-calls">Chaining function calls</h3>
-<pre><code>$ &#39;#my_element&#39;
-.css &#39;color&#39;, red
-.data &#39;stats&#39;,
-    a: 1
-    b: 2
-.show()
-</code></pre><p>Starting a line with a dot will close the call from the previous line.</p>
-<h3 id="embedding-function-calls">Embedding function calls</h3>
-<pre><code>nine = square add 1, 2
-</code></pre><p>Gives</p>
-<pre><code>var nine = square(add(1, 2));
-</code></pre><h3 id="enlightened-existential-expressions">Enlightened existential expressions</h3>
+<h3 id="enlightened-existential-expressions">Enlightened existential expressions</h3>
 <pre><code>if my_obj?
     alert &#39;It exists!&#39;
 </code></pre><p>Or</p>
@@ -85,7 +73,22 @@ html = &quot;&quot;&quot;
 </code></pre><p>No need to switch to backticks!
 But they must be double quotes instead of single.</p>
 <h2 id="fancier-functions">Fancier functions</h2>
-<h3 id="default-values">Default values</h3>
+<p>Not having to write <code>function</code> everywhere makes code simpler.</p>
+<pre><code>$ &#39;#my_element&#39;
+.on &#39;click&#39;, (e)-&gt;
+    e.preventDefault()
+</code></pre><h3 id="chaining-function-calls">Chaining function calls</h3>
+<p>Starting a line with a dot will close the call from the previous line.</p>
+<pre><code>$ &#39;#my_element&#39;
+.css &#39;color&#39;, red
+.show()
+</code></pre><p>But CoffeeScript accepts Javascript syntax too, if you prefer that.</p>
+<pre><code>$(&#39;#my_element&#39;).css(&#39;color&#39;, red).show()
+</code></pre><h3 id="embedding-function-calls">Embedding function calls</h3>
+<pre><code>nine = square add 1, 2
+</code></pre><p>Gives</p>
+<pre><code>var nine = square(add(1, 2));
+</code></pre><h3 id="default-values">Default values</h3>
 <pre><code>add = (start, amount=1)-&gt;
     start + amount
 </code></pre><h3 id="free-returns">Free returns</h3>
@@ -103,6 +106,24 @@ alert is_it_even 3
     health: 255
     money: 10
     name: name
+</code></pre><h3 id="objects-for-arguments">Objects for arguments</h3>
+<p>Passing objects as arguments works the same as assignment.</p>
+<pre><code>$ &#39;#my_element&#39;
+.data
+    a: 1
+    b: 2
+</code></pre><p>You need a comma if there are arguments before the object.</p>
+<pre><code>me = new_bot &#39;Matt&#39;,
+    health: 12
+    money: 3
+</code></pre><p>Multiple objects can be passed, as long as there is a comma between
+them.</p>
+<pre><code>my_object = my_object_combiner
+    a: 1
+    b: 2
+,
+    c: 3
+    d: 4
 </code></pre><h3 id="variable-arguments">Variable arguments</h3>
 <pre><code>blah = (many_blahs...)-&gt;
     alert one_blah for one_blah in many_blahs

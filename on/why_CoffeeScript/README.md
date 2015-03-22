@@ -31,27 +31,6 @@ Only add commas and braces if you want to.
 The colons are still necessary otherwise those would be function calls.
 
 
-### Chaining function calls
-
-	$ '#my_element'
-	.css 'color', red
-	.data 'stats',
-		a: 1
-		b: 2
-	.show()
-
-Starting a line with a dot will close the call from the previous line.
-
-
-### Embedding function calls
-
-	nine = square add 1, 2
-
-Gives
-
-	var nine = square(add(1, 2));
-
-
 ### Enlightened existential expressions
 
 	if my_obj?
@@ -137,6 +116,35 @@ But they must be double quotes instead of single.
 
 ## Fancier functions
 
+Not having to write `function` everywhere makes code simpler.
+
+	$ '#my_element'
+	.on 'click', (e)->
+		e.preventDefault()
+
+
+### Chaining function calls
+
+Starting a line with a dot will close the call from the previous line.
+
+	$ '#my_element'
+	.css 'color', red
+	.show()
+
+But CoffeeScript accepts Javascript syntax too, if you prefer that.
+
+	$('#my_element').css('color', red).show()
+
+
+### Embedding function calls
+
+	nine = square add 1, 2
+
+Gives
+
+	var nine = square(add(1, 2));
+
+
 ### Default values
 
 	add = (start, amount=1)->
@@ -163,6 +171,32 @@ Returning an object is simpler too.
 		health: 255
 		money: 10
 		name: name
+
+
+### Objects for arguments
+
+Passing objects as arguments works the same as assignment.
+
+	$ '#my_element'
+	.data
+		a: 1
+		b: 2
+
+You need a comma if there are arguments before the object.
+
+	me = new_bot 'Matt',
+		health: 12
+		money: 3
+
+Multiple objects can be passed, as long as there is a comma between
+them.
+
+	my_object = my_object_combiner
+		a: 1
+		b: 2
+	,
+		c: 3
+		d: 4
 
 
 ### Variable arguments
