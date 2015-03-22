@@ -4,6 +4,31 @@ Some of the reasons I prefer [CoffeeScript](http://coffeescript.org/)
 over Javascript.
 
 
+## Why bother?
+
+To learn CoffeeScript, you need to know Javascript.
+But once you know Javascript, why should you bother learning
+CoffeeScript?
+
+If you are using any other
+[preprocessor](http://en.wikipedia.org/wiki/Preprocessor)
+for CSS or HTML, then you should consider CoffeeScript for the same
+reasons you considered them.
+
+- Gives [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)
+  for most operations.
+  Less code to read and less chances of errors.
+
+- Produces better Javascript than most people write, with proper
+  variable scoping and equality tests.
+
+- Can be wrapped in [Markdown](http://daringfireball.net/projects/markdown/).
+  So code and comments can be grouped by standard HTML headings.
+
+- Similar to [Jade](http://jade-lang.com/)
+  and [Stylus](http://learnboost.github.io/stylus/).
+
+
 ## Less characters, less clutter
 
 No more blocks of closing braces/brackets!
@@ -257,6 +282,9 @@ Although `==` is changed to `===`.
 
 
 ## Cool people like it
+
+It remains in the top 10 most depended-upon packages on
+[NPM](https://www.npmjs.com/).
 
 - [Atom editor](https://github.com/atom/atom)
 
