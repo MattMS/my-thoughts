@@ -1,5 +1,7 @@
 # My CoffeeScript style
 
+Status: [readable](../status/).
+
 This page describes the way I like to write
 [CoffeeScript](http://coffeescript.org/).
 
