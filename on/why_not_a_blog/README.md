@@ -1,5 +1,7 @@
 # Why not a blog?
 
+Status: [readable](../status/).
+
 This page explains why I have chosen to format this site how it is,
 rather than creating a typical blog.
 
