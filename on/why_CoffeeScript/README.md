@@ -1,5 +1,7 @@
 # Why CoffeeScript?
 
+Status: [readable](../status/).
+
 Some of the reasons I prefer [CoffeeScript](http://coffeescript.org/)
 over Javascript.
 
