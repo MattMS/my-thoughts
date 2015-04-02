@@ -1,5 +1,7 @@
 # Tabs vs spaces
 
+Status: [readable](../status/).
+
 It is almost a requirement as a developer to pick a side in the tabs vs
 spaces war.
 
