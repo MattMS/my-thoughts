@@ -1,5 +1,7 @@
 # Describing projects
 
+Status: [readable](../status/).
+
 Some suggestions on ways to gather the information from clients about
 projects.
 
