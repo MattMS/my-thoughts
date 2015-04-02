@@ -1,5 +1,7 @@
 # Year-beard
 
+Status: [readable](../status/).
+
 On the 29th of November 2014, I finished my year-beard challenge.
 
 This involved not cutting or trimming my beard or hair for 1 year.
