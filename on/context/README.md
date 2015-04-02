@@ -1,5 +1,7 @@
 # Context
 
+Status: [readable](../status/).
+
 I am not a lawyer, so I have no idea if this is adequate, but I hope it
 correctly conveys my intentions.
 
