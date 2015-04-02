@@ -9,13 +9,14 @@ this site.
 You should probably ignore these pages unless you would like to help
 shape my views on a subject.
 
-They are likely just placeholders to remind me to expand on a topic
-later.
+They are likely just placeholders to remind me to expand on a topic as
+I research it more.
 
 
 ## Readable
 
-These should contain a description and conclusion on a subject.
+Reading these pages should give you a fairly accurate idea of my
+thoughts on the subject.
 
-I will likely add more details, but the general idea will probably not
-change.
+Expansion of thoughts are more likely than changes of opinion, but I am
+always hoping for new ideas or corrections.
