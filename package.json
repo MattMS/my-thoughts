@@ -1,6 +1,6 @@
 {
   "name": "thoughts.mattms.info",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Thoughts by Matt McKellar-Spence",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MattMS/my-thoughts.git"
+    "url": "https://github.com/MattMS/thoughts.mattms.info.git"
   },
   "keywords": [
+    "blog",
     "opinions",
     "thoughts"
   ],
   "author": "Matt McKellar-Spence",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MattMS/my-thoughts/issues"
+    "url": "https://github.com/MattMS/thoughts.mattms.info/issues"
   },
   "homepage": "http://thoughts.mattms.info",
   "devDependencies": {
@@ -26,6 +27,6 @@
     "gulp-jade": "^0.9.0",
     "jade": "^1.9.2",
     "marked": "^0.3.3",
-    "stylus": "^0.49.3"
+    "stylus": "^0.50.0"
   }
 }
