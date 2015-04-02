@@ -1,5 +1,7 @@
 # Snake-case vs camel-case
 
+Status: [started](../status/).
+
 I like to use [snake-case](https://en.wikipedia.org/wiki/Snake_case)
 over [camel-case](http://en.wikipedia.org/wiki/CamelCase) for all
 variable and function names.

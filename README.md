@@ -43,6 +43,7 @@ Thank you for your interest!
   and [my coding style](./on/CoffeeScript_style/) with it.
 
 - Why I prefer [tabs over spaces](./on/tabs_vs_spaces/)
+  and [snake-case over camel-case](./on/snake_vs_camel_case).
 
 
 ## Society
