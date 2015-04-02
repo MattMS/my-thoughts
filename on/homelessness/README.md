@@ -1,5 +1,7 @@
 # Homelessness
 
+Status: [started](../status/).
+
 This is meant to highlight my incorrect conclusions from a logical
 process based on a lack of research on the subject.
 

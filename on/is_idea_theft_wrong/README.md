@@ -1,5 +1,7 @@
 # Is idea theft wrong?
 
+Status: [started](../status/).
+
 When working in a creative industry or one that involves community
 events, it is likely you will be presented with ideas that you find
 interesting but are not in control of implementing.

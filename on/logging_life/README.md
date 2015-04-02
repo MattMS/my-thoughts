@@ -1,5 +1,7 @@
 # Logging life
 
+Status: [readable](../status/).
+
 I keep a log of most activities I do during the day.
 This started from keeping time logs of work done and then expanded to
 other things I felt like tracking.

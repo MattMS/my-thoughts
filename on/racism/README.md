@@ -1,5 +1,7 @@
 # Racism
 
+Status: [started](../status/).
+
 I enjoy the TV show [The Boondocks][1] and laugh at the over-the-top
 racism of [Uncle Ruckus][2].
 Despite the absurdity of what he gets away with, it is disappointing

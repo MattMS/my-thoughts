@@ -1,5 +1,7 @@
 # Discrimination
 
+Status: [started](../status/).
+
 As a straight, white male, I cannot think of a time I have faced
 discrimination, so I do not know how it feels.
 But I can recognise the problems caused by discrimination and

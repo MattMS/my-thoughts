@@ -1,5 +1,7 @@
 # My coding evolution
 
+Status: [readable](../status/).
+
 This page describes my journey learning various programming languages.
 
 My Dad told me I wrote my first program when I was 5 years old.

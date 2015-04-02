@@ -1,5 +1,7 @@
 # Flexible work
 
+Status: [started](../status/).
+
 "Flexible" seems appropriate because it fits the nature of development:
 responding to changing goals.
 

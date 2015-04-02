@@ -1,5 +1,7 @@
 # Making myself redundant
 
+Status: [started](../status/).
+
 One of my main goals is to make myself redundant.
 
 This does not mean I want to leave my work; it simply means I know that
