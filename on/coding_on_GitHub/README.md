@@ -1,5 +1,7 @@
 # Coding on GitHub
 
+Status: [started](../status/).
+
 This page describes how I develop and share code on GitHub.
 
 These are my own opinions that will likely change over time.
