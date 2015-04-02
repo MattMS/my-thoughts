@@ -9,6 +9,7 @@ understanding of the world.
 
 Please make sure you [read this in the correct context](./on/context/)
 so my writing is not misinterpreted.
+Also [note the status of each page](./on/status/).
 
 Thank you for your interest!
 
