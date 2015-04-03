@@ -1,32 +1,45 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="author" content="Matt McKellar-Spence"><meta name="description" content="My thoughts on various topics"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Coding on GitHub thought by MattMS</title><link href="http://css.mattms.info/basic/light/index.css?t=2014-12-21T1300+10" rel="stylesheet" title="Basic light" type="text/css"><link href="http://css.mattms.info/basic/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Basic dark" type="text/css"><link href="http://css.mattms.info/solarized/dark/index.css?t=2014-12-21T1300+10" rel="alternate stylesheet" title="Solarized dark" type="text/css"></head><body><article class="container"><h1 id="coding-on-github">Coding on GitHub</h1>
-<p>Status: <a href="../status/">started</a>.</p>
-<p>This page describes how I develop and share code on GitHub.</p>
-<p>These are my own opinions that will likely change over time.
-I will try to link to articles to support my thoughts.</p>
+<p>Status: <a href="../status/">readable</a>.</p>
+<p>These are the things I look for in projects on GitHub.</p>
+<p>I also aim to follow these on my own projects.</p>
 <h2 id="readme">README</h2>
-<p>Start with a README file, even if it is only a single sentence.</p>
-<p>Whenever I look at a project on GitHub, if it does not have a README
-then I am less likely to look through it, because it already feels
-incomplete.</p>
-<p>The main things I hope to find are:</p>
-<ul>
-<li><p>A quick summary of the project.</p>
-</li>
-<li><p>Installation instruction or a link to detailed steps if they are
+<p>Always have a README file, even if it is only a single sentence or a
+list of TODO notes.</p>
+<p>If a project does not have a README then I am less likely to read
+further, because it already feels incomplete.</p>
+<p>See: <a href="http://tom.preston-werner.com/2010/08/23/readme-driven-development.html">Readme Driven Development by Tom Preston-Werner</a></p>
+<h3 id="project-summary">Project summary</h3>
+<p>A short description of why someone would want to use this project.</p>
+<h3 id="installation-instructions">Installation instructions</h3>
+<p>If installation is a single step, like <code>npm install coffee-script</code>, then
+that is perfect to include in the README, to show how simple it is.</p>
+<p>Otherwise you should add a link to more detailed steps if they are
 complex.</p>
-</li>
-<li><p>Requirements, even if they seem obvious.</p>
-</li>
-<li><p>Examples!!!</p>
-</li>
-</ul>
+<h3 id="requirements">Requirements</h3>
+<p>Include requirements, like Operating System, language and libraries,
+even if they seem obvious.</p>
+<p>Projects using <a href="https://www.npmjs.com/">NPM</a> will include a
+<code>package.json</code> that specifies the requirements, but the README should
+still state this.</p>
+<h3 id="examples-">Examples!!!</h3>
 <p>I stopped myself from emphasising that more, but examples are the most
-important thing for me.
-They let me see the elegant syntax of your library and imagine how I
-could use it in my own projects.</p>
-<ul>
-<li><a href="http://tom.preston-werner.com/2010/08/23/readme-driven-development.html">Readme Driven Development by Tom Preston-Werner</a></li>
-</ul>
+important thing for me.</p>
+<p>They show me the elegant syntax of your library and help me imagine how
+I could use it.</p>
+<h2 id="license">LICENSE</h2>
+<p>Every project should have a license, otherwise it makes it difficult for
+people to know if they can use the project how they would like.</p>
+<p>GitHub have a <a href="http://choosealicense.com/">choose a license</a> site that
+can help you find one that covers what you want.</p>
+<p>I tend to pick the <a href="https://en.wikipedia.org/wiki/MIT_License">MIT</a>
+license because it seems to be the most open.</p>
+<h2 id="contributing">CONTRIBUTING</h2>
+<p>The issue and pull request system on GitHub is great!</p>
+<p>A nice feature is by including a CONTRIBUTING file in the root folder,
+it will be shown above the create issue form.</p>
+<p>This is perfect for explaining the format you prefer when specifying
+issues.</p>
+<p>See: <a href="https://github.com/blog/1184-contributing-guidelines">Contributing Guidelines</a></p>
 </article><footer class="container"><hr><ul><li><a href="/">Home</a></li><li><a href="http://about.mattms.info">Read about me</a></li><li><a href="https://github.com/MattMS/thoughts.mattms.info">View on GitHub</a></li></ul></footer><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
