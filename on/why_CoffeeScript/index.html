@@ -7,7 +7,7 @@ over Javascript.</p>
 But once you know Javascript, why should you bother learning
 CoffeeScript?</p>
 <p>If you are using any other
-<a href="http://en.wikipedia.org/wiki/Preprocessor">preprocessor</a>
+<a href="https://en.wikipedia.org/wiki/Preprocessor">preprocessor</a>
 for CSS or HTML, then you should consider CoffeeScript for the same
 reasons you considered them.</p>
 <ul>
@@ -38,11 +38,9 @@ and <a href="http://learnboost.github.io/stylus/">Stylus</a>.</p>
 my_obj =
     a: 1
     b:
-        c: -&gt;
-            2
+        c: 2
     d: 3
-</code></pre><p>The colons are still necessary otherwise those would be function calls.</p>
-<h3 id="enlightened-existential-expressions">Enlightened existential expressions</h3>
+</code></pre><h3 id="enlightened-existential-expressions">Enlightened existential expressions</h3>
 <pre><code>if my_obj?
     alert &#39;It exists!&#39;
 </code></pre><p>Or</p>
@@ -156,6 +154,9 @@ them.</p>
 <pre><code>doubles = (num * 2 for num in [1..10])
 
 countdown = (num for num in [10..1])
+</code></pre><h3 id="call-function-on-each-item">Call function on each item</h3>
+<pre><code>foods = [&#39;broccoli&#39;, &#39;spinach&#39;, &#39;chocolate&#39;]
+eat food for food in foods when food isnt &#39;chocolate&#39;
 </code></pre><h3 id="object-looping">Object looping</h3>
 <pre><code>scores =
     anna: 12
@@ -168,11 +169,7 @@ messages = for name, score of scores
 <pre><code>if studying_economics
     buy() while supply &gt; demand
     sell() until supply &gt; demand
-</code></pre><h2 id="reads-nicely">Reads nicely</h2>
-<h3 id="simple-loops">Simple loops</h3>
-<pre><code>foods = [&#39;broccoli&#39;, &#39;spinach&#39;, &#39;chocolate&#39;]
-eat food for food in foods when food isnt &#39;chocolate&#39;
-</code></pre><h3 id="words-over-symbols">Words over symbols</h3>
+</code></pre><h2 id="words-over-symbols">Words over symbols</h2>
 <ul>
 <li><p><code>is</code> for <code>===</code>. <code>isnt</code> for <code>!==</code>.</p>
 </li>

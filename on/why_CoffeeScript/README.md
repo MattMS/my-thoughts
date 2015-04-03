@@ -13,7 +13,7 @@ But once you know Javascript, why should you bother learning
 CoffeeScript?
 
 If you are using any other
-[preprocessor](http://en.wikipedia.org/wiki/Preprocessor)
+[preprocessor](https://en.wikipedia.org/wiki/Preprocessor)
 for CSS or HTML, then you should consider CoffeeScript for the same
 reasons you considered them.
 
@@ -49,11 +49,8 @@ Only add commas and braces if you want to.
 	my_obj =
 		a: 1
 		b:
-			c: ->
-				2
+			c: 2
 		d: 3
-
-The colons are still necessary otherwise those would be function calls.
 
 
 ### Enlightened existential expressions
@@ -241,6 +238,12 @@ These create arrays with values from the loops.
 	countdown = (num for num in [10..1])
 
 
+### Call function on each item
+
+	foods = ['broccoli', 'spinach', 'chocolate']
+	eat food for food in foods when food isnt 'chocolate'
+
+
 ### Object looping
 
 	scores =
@@ -259,15 +262,7 @@ These create arrays with values from the loops.
 		sell() until supply > demand
 
 
-## Reads nicely
-
-### Simple loops
-
-	foods = ['broccoli', 'spinach', 'chocolate']
-	eat food for food in foods when food isnt 'chocolate'
-
-
-### Words over symbols
+## Words over symbols
 
 - `is` for `===`. `isnt` for `!==`.
 
