@@ -15,8 +15,6 @@ list of TODO notes.
 If a project does not have a README then I am less likely to read
 further, because it already feels incomplete.
 
-See: [Readme Driven Development by Tom Preston-Werner](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
-
 
 ### Project summary
 
@@ -73,4 +71,14 @@ it will be shown above the create issue form.
 This is perfect for explaining the format you prefer when specifying
 issues.
 
-See: [Contributing Guidelines](https://github.com/blog/1184-contributing-guidelines)
+
+## See also
+
+- [Readme Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
+  by Tom Preston-Werner.
+
+- [Contributing Guidelines](https://github.com/blog/1184-contributing-guidelines)
+  from the GitHub blog.
+
+- [Setting guidelines for repository contributors](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
+  from GitHub help articles.
