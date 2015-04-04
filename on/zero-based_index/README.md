@@ -1,6 +1,6 @@
 # Zero-based indexing
 
-Status: [started](../status/).
+Status: [complete](../status/).
 
 Most programming languages have stuck with array/list/string indexing
 starting at zero.
