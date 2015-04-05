@@ -2,11 +2,17 @@
 
 Status: [readable](../status/).
 
-Some suggestions on ways to gather the information from clients about
-projects.
+Some suggestions on ways to gather and organise information from clients
+about projects.
+
+Each of these suggestions should work independently from each other, so
+feel free to pick and change what works for different projects.
 
 
 ## Question feature requests
+
+This *does not* mean becoming defensive about changes, it simply means
+trying to understand why a client wants something done.
 
 Clients may request features because they are unaware of alternatives.
 
@@ -22,7 +28,8 @@ should be implemented.
 Before deciding on features, it is helpful to know the types of users
 that want them.
 
-Here are some of the possible user types for a messaging application:
+Here are some of the possible user types and their main goals for a
+messaging application:
 
 - All users want to send and receive messages.
 
@@ -30,10 +37,12 @@ Here are some of the possible user types for a messaging application:
 
 - Account managers want to create new accounts and reset passwords.
 
-- System managers want to know the usage and growth rate of storage so
+- System admins want to know the usage and growth rate of storage so
   they know when they need to increase the capacity.
 
-This list specifies the types of users and their main goals.
+You can even give names to the user types to make it easier to refer to
+them, like Gary the group manager, Anna the account manager and Sam the
+system admin.
 
 
 ## Use stories to describe features
@@ -116,6 +125,13 @@ point.
 
 - 21: Major task that requires discussion and planning.
   May be broken down into further tasks after more research.
+
+You can then add the scores of tasks done over a certain time frame to
+figure out the rate at which tasks can be done.
+
+An alternative to numbers can be to use clothing sizes, like S, M, L
+and XL.
+But this will not allow calculating the task completion rate.
 
 
 ## Regular feedback
