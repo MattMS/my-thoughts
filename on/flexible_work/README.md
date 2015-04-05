@@ -17,23 +17,23 @@ thought I would share my experiences.
 
 ## Asynchronous, permanent communication
 
-I really like the issues with comments approach of
-[GitHub](https://github.com/) and others.
+I really like the issues and pull requests with comments approach of
+[GitHub](https://github.com/).
 It is a permanent place to find why decisions were made and something to
 show others when they have questions.
 
-Comments and email allow people to collaborate while in different time
-zones.
+Comments allow people to collaborate across different time zones.
 They also allow people to refresh their memory by simply scrolling up.
 
 I dislike phone calls.
 When receiving them, I am usually thrown off guard and have trouble
 tracking down information.
 
-Chatting in person does have the advantage of exposing body language.
-I say "chatting" on purpose, because "meeting" has a formal nature that
-I find can put people on guard.
-Although without someone taking notes, much will probably be missed.
+Chatting in person has the advantage of exposing body language but I
+think it should only be used for simple clarification or quick feedback
+on new ideas.
+If the chat yields something of importance then it should be recorded in
+comments or documentation.
 
 
 ## Evolving documentation
