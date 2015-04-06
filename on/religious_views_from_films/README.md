@@ -15,7 +15,7 @@ my own curiousity.
 
 ## Oh My God
 
-[Oh My God on Wikipedia](http://en.wikipedia.org/wiki/Oh_My_God_%282009_film%29)
+[Oh My God on Wikipedia](https://en.wikipedia.org/wiki/Oh_My_God_%282009_film%29)
 
 Interesting to see people concisely describe different beliefs.
 
