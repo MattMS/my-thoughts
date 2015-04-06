@@ -6,12 +6,13 @@ Growing up, my family did not force any particular belief system on me.
 Opinions were shared, but it was more about keeping an open mind rather
 than directing thoughts.
 
-Friends of my family have different religious and spiritual beliefs,
-some from different cultures, and gatherings exposed me to their
-different practices and views.
+My friends and family have different religious and spiritual beliefs,
+and gatherings exposed me to their practices and views.
 
-As a child, I was quite skeptical of it all and probably would have
-called myself an [atheist](https://en.wikipedia.org/wiki/Atheism).
+Until my mid-20s, I was quite skeptical of it all and probably would
+have called myself an [atheist](https://en.wikipedia.org/wiki/Atheism).
+But now I am becoming more open to the other aspects of religion, beyond
+their belief systems.
 
 
 ## School
