@@ -1,17 +1,17 @@
 # Religion in my life
 
-Status: [started](../status/).
+Status: [readable](../status/).
 
 Growing up, my family did not force any particular belief system on me.
-Opinions were shared, but it was more about opening our minds rather
-than directing us to something.
+Opinions were shared, but it was more about keeping an open mind rather
+than directing thoughts.
 
 Friends of my family have different religious and spiritual beliefs,
 some from different cultures, and gatherings exposed me to their
 different practices and views.
 
 As a child, I was quite skeptical of it all and probably would have
-called myself an atheist.
+called myself an [atheist](https://en.wikipedia.org/wiki/Atheism).
 
 
 ## School
@@ -38,7 +38,7 @@ studies and what their interests are.
 ## Friends
 
 Although the majority of people I know do not seem interested in
-religion, I do have some friends that are religious.
+religion, I do have religious friends.
 Over the years I have heard their views on different topics, which I
 always find interesting.
 
@@ -60,6 +60,8 @@ This curiousity extends into many different philosophical questions too.
 
 ## Future
 
-I have heard that wisdom is knowledge solidifying in the brain, but as I
-grow older I hope that I am still able to keep an open mind to all the
-different views this world provides.
+I will continue expanding this page as I learn more so I do not think
+it will ever be finished.
+
+Any input would be greatly appreciated and will hopefully provide
+additions to this page!
