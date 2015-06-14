@@ -12,6 +12,16 @@ Load a different stylesheet on 404 of the default one.</p>
 
 &lt;link group=&quot;other&quot; href=&quot;//example.com/remote/other.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
 &lt;link group=&quot;other&quot; href=&quot;./local/other.css&quot; rel=&quot;alternate stylesheet&quot; title=&quot;Local other&quot; type=&quot;text/css&quot;&gt;
+</code></pre><p>Alternatively group them within a <code>group</code> tag:</p>
+<pre><code>&lt;group&gt;
+    &lt;link href=&quot;//example.com/remote/base.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+    &lt;link href=&quot;./local/base.css&quot; rel=&quot;alternate stylesheet&quot; title=&quot;Local base&quot; type=&quot;text/css&quot;&gt;
+&lt;/group&gt;
+
+&lt;group&gt;
+    &lt;link href=&quot;//example.com/remote/other.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+    &lt;link href=&quot;./local/other.css&quot; rel=&quot;alternate stylesheet&quot; title=&quot;Local other&quot; type=&quot;text/css&quot;&gt;
+&lt;/group&gt;
 </code></pre><p>This could be extended to scripts too.</p>
 </article><footer class="container"><hr><ul><li><a href="/">Home</a></li><li><a href="http://about.mattms.info">Read about me</a></li><li><a href="https://github.com/MattMS/thoughts.mattms.info">View on GitHub</a></li></ul></footer><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

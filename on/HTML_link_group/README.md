@@ -20,4 +20,16 @@ Group the stylesheets to allow fallbacks on multiple resources:
 	<link group="other" href="//example.com/remote/other.css" rel="stylesheet" type="text/css">
 	<link group="other" href="./local/other.css" rel="alternate stylesheet" title="Local other" type="text/css">
 
+Alternatively group them within a `group` tag:
+
+	<group>
+		<link href="//example.com/remote/base.css" rel="stylesheet" type="text/css">
+		<link href="./local/base.css" rel="alternate stylesheet" title="Local base" type="text/css">
+	</group>
+
+	<group>
+		<link href="//example.com/remote/other.css" rel="stylesheet" type="text/css">
+		<link href="./local/other.css" rel="alternate stylesheet" title="Local other" type="text/css">
+	</group>
+
 This could be extended to scripts too.
