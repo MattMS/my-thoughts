@@ -47,7 +47,7 @@ Thank you for your interest!
 
 - How I spent [a year without shaving](./on/year-beard/).
 
-- My [progression through coding languages](./on/my_coding_evolution/).
+- My [progression through coding languages](./on/my/coding_evolution/).
 
 
 ## Society
