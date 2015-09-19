@@ -1,6 +1,6 @@
 # My coding evolution
 
-Status: [readable](../status/).
+Status: [readable](../../status/).
 
 This page describes my journey learning various programming languages.
 
