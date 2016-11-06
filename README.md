@@ -15,6 +15,16 @@ reading at this point in time.
 Thank you for your interest!
 
 
+## For GitHub viewers
+
+In case you are reading this on GitHub:
+
+Normally this README would include build instructions for this project,
+but since I am building each of the pages from the README (to make it easier to view on GitHub),
+I have included these instructions in
+[CONTRIBUTING.md](https://github.com/MattMS/thoughts.mattms.info/blob/gh-pages/CONTRIBUTING.md).
+
+
 ## Coding
 
 ### Practices
