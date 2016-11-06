@@ -65,8 +65,3 @@ I have included these instructions in
 - My beliefs and views on [religion](./on/religion/).
 
 - [Questioning if idea theft is wrong](./on/is_idea_theft_wrong/).
-
-- Recognising [discrimination](./on/discrimination/).
-
-- Rethinking [homelessness](./on/homelessness/) to fix my limited
-  knowledge of it.
