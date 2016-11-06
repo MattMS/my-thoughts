@@ -1,33 +1,37 @@
 {
-  "name": "thoughts.mattms.info",
-  "version": "0.1.0",
-  "description": "Thoughts by Matt McKellar-Spence",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "jade --watch on"
+  "author": "Matt McKellar-Spence",
+  "bugs": {
+    "url": "https://github.com/MattMS/thoughts.mattms.info/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MattMS/thoughts.mattms.info.git"
+  "dependencies": {
+    "hyperscript": "^2.0.2",
+    "metah": "^0.4.0"
+  },
+  "description": "Thoughts by Matt McKellar-Spence",
+  "devDependencies": {
+    "coffee-script": "^1.11.1",
+    "gulp": "^3.9.1",
+    "gulp-marked": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-transform": "^1.1.0",
+    "marked": "^0.3.6"
   },
   "keywords": [
     "blog",
     "opinions",
     "thoughts"
   ],
-  "author": "Matt McKellar-Spence",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MattMS/thoughts.mattms.info/issues"
-  },
   "homepage": "http://thoughts.mattms.info",
-  "devDependencies": {
-    "coffee-script": "^1.9.1",
-    "gulp": "^3.8.11",
-    "gulp-jade": "^0.9.0",
-    "jade": "^1.9.2",
-    "marked": "^0.3.3",
-    "stylus": "^0.50.0"
-  }
+  "license": "MIT",
+  "main": "index.js",
+  "name": "thoughts.mattms.info",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattMS/thoughts.mattms.info.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
 }
