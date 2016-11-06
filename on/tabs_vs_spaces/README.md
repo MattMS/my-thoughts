@@ -2,8 +2,7 @@
 
 Status: [readable](../status/).
 
-It is almost a requirement as a developer to pick a side in the tabs vs
-spaces war.
+It is almost a requirement as a developer to pick a side in the tabs vs spaces war.
 
 I side with tabs.
 
@@ -13,25 +12,26 @@ I side with tabs.
 Or more accurately: why I like tabs more.
 
 
+### One key indent/unindent
+
+Add with the tab key and remove with backspace.
+
+One benefit of this is it works in even the most basic editors.
+
+
+### Indentation errors
+
+The more spaces you use for indentation, the greater the chance you will accidentally add an extra space that will break things.
+
+This is an annoyance for most languages, but can cause syntax errors for whitespace-significant languages like Coffee-Script and Python.
+
+
 ### Smaller file size
 
 I decided to start with the obvious one, even though it is not such a
 big deal with cheap and fast storage.
 
 It is still a point that spaces will always have against them.
-
-
-### Indentation errors
-
-The more spaces you use for indentation, the greater the chance you will
-accidentally add an extra space that will break things.
-
-
-### One key indent/unindent
-
-Add with the tab key and remove with backspace.
-
-One benefit of this is it works in even the most basic editors.
 
 
 ### Viewer-defined indent width
@@ -72,3 +72,10 @@ It actually does not really matter which you choose.
 It is easy enough to find-replace on load and reverse on save.
 
 The more important point is the content you are writing!
+
+
+## Other advocates
+
+- Lea Verou: [Why tabs are clearly superior](http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/ "2012-01-17")
+
+- Sindre Sorhus: [xo: JavaScript happiness style linter](https://github.com/sindresorhus/xo#space)
