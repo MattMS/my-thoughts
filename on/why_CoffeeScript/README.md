@@ -287,8 +287,6 @@ It remains in the top 10 most depended-upon packages on
 
 - [Dropbox](https://blogs.dropbox.com/tech/2012/09/dropbox-dives-into-coffeescript/)
 
-- [GitHub](https://github.com/styleguide/javascript)
-
 - [Hubot](https://hubot.github.com/)
 
 - [Trello](https://trello.com/)
