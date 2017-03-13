@@ -31,6 +31,7 @@
     "url": "https://github.com/MattMS/thoughts.mattms.info.git"
   },
   "scripts": {
+    "make": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "0.1.0"
